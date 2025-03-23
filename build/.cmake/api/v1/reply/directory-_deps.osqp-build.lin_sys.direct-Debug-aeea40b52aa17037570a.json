@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/osqp-build/lin_sys/direct",
+		"source" : "build/_deps/osqp-src/lin_sys/direct"
+	}
+}

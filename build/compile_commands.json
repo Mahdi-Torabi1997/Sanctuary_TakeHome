@@ -1,0 +1,1072 @@
+[
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/main.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/main.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/main.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/RRRManipulator.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/RRRManipulator.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/RRRManipulator.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/ForwardKinematics.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/ForwardKinematics.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/ForwardKinematics.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/InverseKinematics.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/InverseKinematics.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/InverseKinematics.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/GradientDescentIK.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/GradientDescentIK.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/GradientDescentIK.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/LevenbergMarquardtIK.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/LevenbergMarquardtIK.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/LevenbergMarquardtIK.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/Jacobian.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/Jacobian.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/Jacobian.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/QuadraticProgrammingIK.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/QuadraticProgrammingIK.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/QuadraticProgrammingIK.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o -c /home/mato/cpp_projects/external/QuIK/src/geometry.cpp",
+  "file": "/home/mato/cpp_projects/external/QuIK/src/geometry.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -isystem /usr/include/eigen3 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/unit_tests.dir/tests/test_forward_kinematics.cpp.o -c /home/mato/cpp_projects/Sanctuary/tests/test_forward_kinematics.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/tests/test_forward_kinematics.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -isystem /usr/include/eigen3 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/unit_tests.dir/tests/test_inverse_kinematics.cpp.o -c /home/mato/cpp_projects/Sanctuary/tests/test_inverse_kinematics.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/tests/test_inverse_kinematics.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -isystem /usr/include/eigen3 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/unit_tests.dir/tests/test_ik_fk_integration.cpp.o -c /home/mato/cpp_projects/Sanctuary/tests/test_ik_fk_integration.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/tests/test_ik_fk_integration.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -isystem /usr/include/eigen3 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/unit_tests.dir/src/ForwardKinematics.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/ForwardKinematics.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/ForwardKinematics.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -isystem /usr/include/eigen3 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/unit_tests.dir/src/InverseKinematics.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/InverseKinematics.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/InverseKinematics.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -isystem /usr/include/eigen3 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/unit_tests.dir/src/RRRManipulator.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/RRRManipulator.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/RRRManipulator.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/osqp-cpp",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include -isystem /usr/include/eigen3 -g -std=gnu++17 -o CMakeFiles/osqp-cpp.dir/src/osqp++.cc.o -c /home/mato/cpp_projects/Sanctuary/osqp-cpp/src/osqp++.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/osqp-cpp/src/osqp++.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_severity.dir/log_severity.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/log_severity.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/log_severity.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/raw_logging.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/raw_logging.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/spinlock_wait.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/spinlock_wait.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_base.dir/internal/cycleclock.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/cycleclock.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/cycleclock.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_base.dir/internal/spinlock.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/spinlock.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/spinlock.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_base.dir/internal/sysinfo.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/sysinfo.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/sysinfo.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_base.dir/internal/thread_identity.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/thread_identity.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/thread_identity.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/unscaledcycleclock.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/unscaledcycleclock.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/low_level_alloc.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/low_level_alloc.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/throw_delegate.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/throw_delegate.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strerror.dir/internal/strerror.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/strerror.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/strerror.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_tracing_internal.dir/internal/tracing.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/tracing.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/tracing.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_scoped_set_env.dir/internal/scoped_set_env.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/scoped_set_env.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/scoped_set_env.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/base",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_poison.dir/internal/poison.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/poison.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/base/internal/poison.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/container",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/container/internal/hashtablez_sampler.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/container/internal/hashtablez_sampler.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/container",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/container/internal/hashtablez_sampler_force_weak_definition.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/container/internal/hashtablez_sampler_force_weak_definition.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/container",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/container/internal/raw_hash_set.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/container/internal/raw_hash_set.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/cpu_detect.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/cpu_detect.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_x86_arm_combined.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_x86_arm_combined.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc32c.dir/crc32c.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/crc32c.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/crc32c.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_memcpy_fallback.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_memcpy_fallback.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_memcpy_x86_arm_combined.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_memcpy_x86_arm_combined.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_non_temporal_memcpy.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_non_temporal_memcpy.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/crc",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_cord_state.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/crc/internal/crc_cord_state.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/address_is_readable.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/address_is_readable.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/elf_mem_image.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/elf_mem_image.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/vdso_support.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/vdso_support.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/stacktrace.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/stacktrace.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/utf8_for_code_point.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/utf8_for_code_point.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/decode_rust_punycode.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/decode_rust_punycode.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/demangle_rust.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/demangle_rust.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/demangle.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/demangle.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_symbolize.dir/symbolize.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/symbolize.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/symbolize.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_leak_check.dir/leak_check.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/leak_check.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/leak_check.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/examine_stack.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/internal/examine_stack.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/debugging",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/failure_signal_handler.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/debugging/failure_signal_handler.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_program_name.dir/internal/program_name.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/program_name.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/program_name.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_config.dir/usage_config.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/usage_config.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/usage_config.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_marshalling.dir/marshalling.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/marshalling.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/marshalling.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/commandlineflag.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/commandlineflag.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_commandlineflag.dir/commandlineflag.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/commandlineflag.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/commandlineflag.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_private_handle_accessor.dir/internal/private_handle_accessor.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/private_handle_accessor.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/private_handle_accessor.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_reflection.dir/reflection.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/reflection.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/reflection.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_internal.dir/internal/flag.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/flag.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/flag.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_usage_internal.dir/internal/usage.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/usage.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/internal/usage.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_usage.dir/usage.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/usage.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/usage.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/flags",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_flags_parse.dir/parse.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/parse.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/flags/parse.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/hash",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_city.dir/internal/city.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/hash/internal/city.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/hash/internal/city.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/hash",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_low_level_hash.dir/internal/low_level_hash.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/hash/internal/low_level_hash.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/hash/internal/low_level_hash.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/hash",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_hash.dir/internal/hash.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/hash/internal/hash.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/hash/internal/hash.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_globals.dir/internal/globals.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/globals.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/globals.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_format.dir/internal/log_format.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/log_format.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/log_format.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_proto.dir/internal/proto.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/proto.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/proto.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/fnmatch.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/fnmatch.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_vlog_config_internal.dir/internal/vlog_config.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/vlog_config.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/vlog_config.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_globals.dir/globals.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/globals.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/globals.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_sink.dir/log_sink.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/log_sink.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/log_sink.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_log_sink_set.dir/internal/log_sink_set.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/log_sink_set.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/log_sink_set.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_nullguard.dir/internal/nullguard.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/nullguard.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/nullguard.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_structured_proto.dir/internal/structured_proto.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/structured_proto.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/structured_proto.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_message.dir/internal/log_message.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/log_message.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/log_message.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/check_op.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/check_op.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_internal_conditions.dir/internal/conditions.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/conditions.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/internal/conditions.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_die_if_null.dir/die_if_null.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/die_if_null.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/die_if_null.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_flags.dir/flags.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/flags.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/flags.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/log",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_log_initialize.dir/initialize.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/initialize.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/log/initialize.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/numeric",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_int128.dir/int128.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/numeric/int128.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/numeric/int128.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/profiling",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/profiling/internal/exponential_biased.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/profiling/internal/exponential_biased.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/profiling",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/profiling/internal/periodic_sampler.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/profiling/internal/periodic_sampler.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/discrete_distribution.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/discrete_distribution.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/gaussian_distribution.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/gaussian_distribution.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/seed_gen_exception.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/seed_gen_exception.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/seed_material.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/seed_material.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_round_keys.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_round_keys.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_slow.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_slow.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_hwaes.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_hwaes.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_detect.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen_detect.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/randen.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_entropy_pool.dir/internal/entropy_pool.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/entropy_pool.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/entropy_pool.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/seed_sequences.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/seed_sequences.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/chi_square.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/chi_square.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/chi_square.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/random",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_random_internal_distribution_test_util.dir/internal/distribution_test_util.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/distribution_test_util.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/random/internal/distribution_test_util.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/status",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_status.dir/internal/status_internal.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/internal/status_internal.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/internal/status_internal.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/status",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_status.dir/status.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/status.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/status.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/status",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_status.dir/status_payload_printer.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/status_payload_printer.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/status_payload_printer.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/status",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_statusor.dir/statusor.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/statusor.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/status/statusor.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_string_view.dir/string_view.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/string_view.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/string_view.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/ostringstream.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/ostringstream.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/utf8.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/utf8.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/escaping.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/escaping.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/ascii.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/ascii.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/ascii.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/charconv.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/charconv.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/charconv.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/escaping.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/escaping.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/escaping.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/charconv_bigint.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/charconv_bigint.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/charconv_parse.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/charconv_parse.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/internal/damerau_levenshtein_distance.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/damerau_levenshtein_distance.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/damerau_levenshtein_distance.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/internal/memutil.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/memutil.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/memutil.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/internal/stringify_sink.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/stringify_sink.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/stringify_sink.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/match.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/match.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/match.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/numbers.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/numbers.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/numbers.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/str_cat.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/str_cat.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/str_cat.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/str_replace.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/str_replace.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/str_replace.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/str_split.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/str_split.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/str_split.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_strings.dir/substitute.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/substitute.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/substitute.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/arg.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/arg.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/bind.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/bind.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/extension.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/extension.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/float_conversion.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/float_conversion.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/output.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/output.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/parser.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/str_format/parser.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_internal.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_internal.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_btree.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_btree.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_btree_navigator.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_btree_navigator.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_btree_reader.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_btree_reader.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_crc.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_crc.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_consume.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cord_rep_consume.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_functions.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_functions.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_handle.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_handle.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_info.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_info.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord.dir/cord.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/cord.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/cord.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cord.dir/cord_analysis.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/cord_analysis.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/cord_analysis.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/strings",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_cordz_sample_token.dir/internal/cordz_sample_token.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_sample_token.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/strings/internal/cordz_sample_token.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/graphcycles.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/graphcycles.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/kernel_timeout.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/kernel_timeout.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/barrier.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/barrier.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/barrier.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/blocking_counter.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/blocking_counter.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/create_thread_identity.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/create_thread_identity.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/futex_waiter.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/futex_waiter.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/per_thread_sem.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/per_thread_sem.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/pthread_waiter.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/pthread_waiter.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/sem_waiter.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/sem_waiter.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/stdcpp_waiter.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/stdcpp_waiter.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/waiter_base.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/waiter_base.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/win32_waiter.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/internal/win32_waiter.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/notification.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/notification.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/notification.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/synchronization",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_synchronization.dir/mutex.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/mutex.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/synchronization/mutex.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/civil_time_detail.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/civil_time_detail.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_fixed.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_fixed.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_format.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_format.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_if.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_if.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_impl.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_impl.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_info.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_info.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_libc.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_libc.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_lookup.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_lookup.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_posix.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/time_zone_posix.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/zone_info_source.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/internal/cctz/src/zone_info_source.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time.dir/civil_time.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/civil_time.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/civil_time.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time.dir/clock.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/clock.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/clock.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time.dir/duration.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/duration.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/duration.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time.dir/format.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/format.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/format.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build/absl/time",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -g -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Wnon-virtual-dtor -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -std=gnu++17 -o CMakeFiles/absl_time.dir/time.cc.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/time.cc",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src/absl/time/time.cc"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/auxil.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/auxil.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/auxil.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/error.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/error.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/error.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/lin_alg.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_alg.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_alg.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/osqp.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/osqp.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/osqp.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/proj.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/proj.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/proj.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/scaling.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/scaling.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/scaling.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/util.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/util.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/util.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/kkt.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/kkt.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/kkt.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/cs.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/cs.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/cs.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/polish.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/polish.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/polish.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/lin_sys.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_sys.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_sys.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/src/ctrlc.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/ctrlc.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/ctrlc.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqpstatic.dir/lin_sys/lib_handler.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/lib_handler.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/lib_handler.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/auxil.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/auxil.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/auxil.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/error.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/error.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/error.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/lin_alg.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_alg.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_alg.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/osqp.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/osqp.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/osqp.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/proj.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/proj.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/proj.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/scaling.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/scaling.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/scaling.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/util.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/util.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/util.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/kkt.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/kkt.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/kkt.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/cs.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/cs.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/cs.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/polish.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/polish.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/polish.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/lin_sys.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_sys.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/lin_sys.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/src/ctrlc.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/ctrlc.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/src/ctrlc.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc -Dosqp_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/osqp.dir/lin_sys/lib_handler.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/lib_handler.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/lib_handler.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIE -o CMakeFiles/osqp_demo.dir/examples/osqp_demo.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/examples/osqp_demo.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/examples/osqp_demo.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_pardiso.dir/pardiso/pardiso_interface.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso/pardiso_interface.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso/pardiso_interface.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_pardiso.dir/pardiso/pardiso_loader.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso/pardiso_loader.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/pardiso/pardiso_loader.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_1.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_1.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_1.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_2.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_2.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_2.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_aat.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_aat.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_aat.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_control.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_control.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_control.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_defaults.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_defaults.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_defaults.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_info.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_info.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_info.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_order.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_order.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_order.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_post_tree.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_post_tree.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_post_tree.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_postorder.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_postorder.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_postorder.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_preprocess.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_preprocess.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_preprocess.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/amd_valid.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_valid.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/amd_valid.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/amd/src/SuiteSparse_config.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/src/SuiteSparse_config.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/amd/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/include  -O0 -g -g -fPIC -o CMakeFiles/linsys_qdldl.dir/qdldl_interface.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_interface.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_interface.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include  -O0 -g -O3 -g -O0 -g -fPIC -o CMakeFiles/qdldlobject.dir/src/qdldl.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include  -O0 -g -O3 -g -O0 -g -fPIC -o CMakeFiles/qdldlstatic.dir/src/qdldl.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources",
+  "command": "/usr/bin/cc -Dqdldl_EXPORTS -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include  -O0 -g -O3 -g -O0 -g -fPIC -o CMakeFiles/qdldl.dir/src/qdldl.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources",
+  "command": "/usr/bin/cc  -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys -I/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include  -O0 -g -O3 -g -O0 -g -fPIE -o CMakeFiles/qdldl_example.dir/examples/example.c.o -c /home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/examples/example.c",
+  "file": "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/examples/example.c"
+}
+]

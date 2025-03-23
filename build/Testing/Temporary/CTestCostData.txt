@@ -1,0 +1,5 @@
+ForwardKinematicsTest.ZeroPosition 1 0.00891482
+InverseKinematicsTest.SolvesForValidPose 1 0.0155977
+InverseKinematicsTest.RejectsUnreachablePose 1 0.00745301
+IKFKIntegrationTest.PoseRecoveredAfterIKandFK 1 0.00764677
+---

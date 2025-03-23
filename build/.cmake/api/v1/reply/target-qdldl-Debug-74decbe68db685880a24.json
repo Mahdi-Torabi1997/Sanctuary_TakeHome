@@ -1,0 +1,169 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources/out/libqdldl.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/CMakeLists.txt",
+			"build/_deps/osqp-src/lin_sys/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O0 -g -O3 -g -O0 -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "qdldl_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "qdldl::@b795b33971f02fbc5b9c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lm -lrt -ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "qdldl",
+	"nameOnDisk" : "libqdldl.so",
+	"paths" : 
+	{
+		"build" : "_deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources",
+		"source" : "build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/src/qdldl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include/qdldl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources/include/qdldl_types.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

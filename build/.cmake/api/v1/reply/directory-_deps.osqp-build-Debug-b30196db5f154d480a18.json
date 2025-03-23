@@ -1,0 +1,137 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/osqp-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 318,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 348,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/osqp-build/out/libosqp.a"
+			],
+			"targetId" : "osqpstatic::@c7bcff48085e607f36b6",
+			"targetIndex" : 94,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/osqp",
+			"paths" : 
+			[
+				"build/_deps/osqp-src/include/auxil.h",
+				"build/_deps/osqp-src/include/constants.h",
+				"build/_deps/osqp-src/include/error.h",
+				"build/_deps/osqp-src/include/glob_opts.h",
+				"build/_deps/osqp-src/include/lin_alg.h",
+				"build/_deps/osqp-src/include/osqp.h",
+				"build/_deps/osqp-src/include/osqp_configure.h",
+				"build/_deps/osqp-src/include/proj.h",
+				"build/_deps/osqp-src/include/scaling.h",
+				"build/_deps/osqp-src/include/types.h",
+				"build/_deps/osqp-src/include/util.h",
+				"build/_deps/osqp-src/include/cs.h",
+				"build/_deps/osqp-src/include/polish.h",
+				"build/_deps/osqp-src/include/lin_sys.h",
+				"build/_deps/osqp-src/include/ctrlc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/osqp-build/out/libosqp.so"
+			],
+			"targetId" : "osqp::@c7bcff48085e607f36b6",
+			"targetIndex" : 91,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/osqp",
+			"exportName" : "osqp",
+			"exportTargets" : 
+			[
+				{
+					"id" : "osqpstatic::@c7bcff48085e607f36b6",
+					"index" : 94
+				},
+				{
+					"id" : "osqp::@c7bcff48085e607f36b6",
+					"index" : 91
+				}
+			],
+			"paths" : 
+			[
+				"_deps/osqp-build/CMakeFiles/Export/lib/cmake/osqp/osqp-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/osqp",
+			"paths" : 
+			[
+				"build/_deps/osqp-build/osqp-config.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/osqp-build",
+		"source" : "build/_deps/osqp-src"
+	}
+}

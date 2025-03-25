@@ -153,41 +153,45 @@ This method computes joint angles \( \theta_1, \theta_2, \theta_3 \) for a desir
 #### Approach Overview:
 1. **Compute the wrist center**:
 
-\[
+$$
 x_w = x - L_3 \cos(\phi), \quad y_w = y - L_3 \sin(\phi)
-\]
+$$
 
-2. **Compute squared distance to the wrist center**:
+2. **Compute squared distance to wrist center**:
 
-\[
+$$
 r^2 = x_w^2 + y_w^2
-\]
+$$
 
-3. **Apply the Law of Cosines to solve for \( \theta_2 \)**:
+3. **Apply the Law of Cosines**:
 
-\[
+$$
 \cos(\theta_2) = \frac{r^2 - L_1^2 - L_2^2}{2 L_1 L_2}
-\]
+$$
 
-\[
-\sin(\theta_2) = \sqrt{1 - \cos^2(\theta_2)} \quad \text{(Elbow-down configuration)}
-\]
+- Check feasibility: $ |\cos(\theta_2)| \leq 1 $
 
-\[
+- Elbow-down configuration (positive root):
+
+$$
+\sin(\theta_2) = \sqrt{1 - \cos^2(\theta_2)}
+$$
+
+$$
 \theta_2 = \text{atan2}(\sin(\theta_2), \cos(\theta_2))
-\]
+$$
 
-4. **Solve for \( \theta_1 \)**:
+4. **Solve for $ \theta_1 $**:
 
-\[
+$$
 \theta_1 = \text{atan2}(y_w, x_w) - \text{atan2}(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))
-\]
+$$
 
-5. **Solve for \( \theta_3 \)** using orientation constraint:
+5. **Solve for $ \theta_3 $**:
 
-\[
+$$
 \theta_3 = \phi - (\theta_1 + \theta_2)
-\]
+$$
 
 ---
 #### 💡 Key Notes:

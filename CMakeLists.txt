@@ -26,6 +26,7 @@ add_executable(main_exec
   src/LevenbergMarquardtIK.cpp
   src/Jacobian.cpp
   src/QuadraticProgrammingIK.cpp
+  src/GradientDescentIKElbowUp.cpp
 )
 
 # source files

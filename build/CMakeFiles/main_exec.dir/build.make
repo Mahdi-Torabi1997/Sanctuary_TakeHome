@@ -181,10 +181,24 @@ CMakeFiles/main_exec.dir/src/QuadraticProgrammingIK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_exec.dir/src/QuadraticProgrammingIK.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mato/cpp_projects/Sanctuary/src/QuadraticProgrammingIK.cpp -o CMakeFiles/main_exec.dir/src/QuadraticProgrammingIK.cpp.s
 
+CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o: CMakeFiles/main_exec.dir/flags.make
+CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o: ../src/GradientDescentIKElbowUp.cpp
+CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o: CMakeFiles/main_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o -MF CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o.d -o CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/GradientDescentIKElbowUp.cpp
+
+CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mato/cpp_projects/Sanctuary/src/GradientDescentIKElbowUp.cpp > CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.i
+
+CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mato/cpp_projects/Sanctuary/src/GradientDescentIKElbowUp.cpp -o CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.s
+
 CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o: CMakeFiles/main_exec.dir/flags.make
 CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o: /home/mato/cpp_projects/external/QuIK/src/geometry.cpp
 CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o: CMakeFiles/main_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o -MF CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o.d -o CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o -c /home/mato/cpp_projects/external/QuIK/src/geometry.cpp
 
 CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.i: cmake_force
@@ -205,6 +219,7 @@ main_exec_OBJECTS = \
 "CMakeFiles/main_exec.dir/src/LevenbergMarquardtIK.cpp.o" \
 "CMakeFiles/main_exec.dir/src/Jacobian.cpp.o" \
 "CMakeFiles/main_exec.dir/src/QuadraticProgrammingIK.cpp.o" \
+"CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o" \
 "CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o"
 
 # External object files for target main_exec
@@ -218,6 +233,7 @@ main_exec: CMakeFiles/main_exec.dir/src/GradientDescentIK.cpp.o
 main_exec: CMakeFiles/main_exec.dir/src/LevenbergMarquardtIK.cpp.o
 main_exec: CMakeFiles/main_exec.dir/src/Jacobian.cpp.o
 main_exec: CMakeFiles/main_exec.dir/src/QuadraticProgrammingIK.cpp.o
+main_exec: CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o
 main_exec: CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o
 main_exec: CMakeFiles/main_exec.dir/build.make
 main_exec: osqp-cpp/libosqp-cpp.a
@@ -262,7 +278,7 @@ main_exec: _deps/abseil-cpp-build/absl/base/libabsl_raw_logging_internal.a
 main_exec: _deps/abseil-cpp-build/absl/base/libabsl_log_severity.a
 main_exec: _deps/osqp-build/out/libosqp.a
 main_exec: CMakeFiles/main_exec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main_exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main_exec"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_exec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

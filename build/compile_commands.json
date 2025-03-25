@@ -41,6 +41,11 @@
 },
 {
   "directory": "/home/mato/cpp_projects/Sanctuary/build",
+  "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o -c /home/mato/cpp_projects/Sanctuary/src/GradientDescentIKElbowUp.cpp",
+  "file": "/home/mato/cpp_projects/Sanctuary/src/GradientDescentIKElbowUp.cpp"
+},
+{
+  "directory": "/home/mato/cpp_projects/Sanctuary/build",
   "command": "/usr/bin/c++  -I/home/mato/cpp_projects/Sanctuary/../external/QuIK/include -I/home/mato/cpp_projects/Sanctuary/include -I/home/mato/cpp_projects/Sanctuary/src -I/home/mato/cpp_projects/Sanctuary/osqp-cpp/include -I/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src -isystem /usr/include/eigen3 -g -o CMakeFiles/main_exec.dir/home/mato/cpp_projects/external/QuIK/src/geometry.cpp.o -c /home/mato/cpp_projects/external/QuIK/src/geometry.cpp",
   "file": "/home/mato/cpp_projects/external/QuIK/src/geometry.cpp"
 },

@@ -9,6 +9,8 @@
 #include "Sanctuary/GradientDescentIK.h"
 #include "Sanctuary/LevenbergMarquardtIK.h"
 #include "Sanctuary/QuadraticProgrammingIK.h"
+#include "Sanctuary/GradientDescentIKElbowUp.h"
+
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
@@ -31,10 +33,10 @@ int main() {
     // Initialize the robot with link lengths
     RRRManipulator r(0.3, 0.3, 0.1);
 
-    // Set joint angles directly in radians
-    double theta1 = 0;  // ~45 degrees
-    double theta2 = M_PI/2;  // ~30 degrees
-    double theta3 = 0;    // ~60 degrees
+    // Set joint angles  in radians
+    double theta1 = 0;  
+    double theta2 = M_PI/2;  
+    double theta3 = 0;    
     r.setJointAngles(theta1, theta2, theta3);
 
     // Compute forward kinematics
@@ -199,6 +201,51 @@ int main() {
         std::cout << "failed after " << iter << " iterations.\n";
         std::cout << "Break reason" << static_cast<int>(reason) << "\n";
     }
+
+    std::cout << "\n\n[Gradient Descent IK vs Elbow-Up IK with Null-Space Optimization]\n";
+
+    // Target pose (reachable and ambiguous configuration)
+    double target_x = 0.4;
+    double target_y = 0.0;
+    double target_phi = 0.0;
+
+    // initial guess
+    double init_theta1 = 0.0;
+    double init_theta2 = -M_PI / 4;
+    double init_theta3 = M_PI / 4;
+
+    // Normal Gradient Descent (Elbow-Down)
+    RRRManipulator robot_gd(0.3, 0.3, 0.1);
+    robot_gd.setJointAngles(init_theta1, init_theta2, init_theta3);
+    double gd_t1, gd_t2, gd_t3;
+
+    std::cout << "\n[Gradient Descent (Elbow-Down)]\n";
+    if (gradientDescentIK(robot_gd, target_x, target_y, target_phi, gd_t1, gd_t2, gd_t3)) {
+        std::cout << "Thetas: " << gd_t1 << ", " << gd_t2 << ", " << gd_t3 << "\n";
+        double x, y, phi;
+        getEndEffectorPose(robot_gd, x, y, phi);
+        std::cout << "FK Pose: x = " << x << ", y = " << y << ", phi = " << phi << "\n";
+    } else {
+        std::cout << "Gradient Descent IK failed.\n";
+    }
+
+    // Gradient Descent with Null-Space (Elbow-Up)
+    RRRManipulator robot_ns(0.3, 0.3, 0.1);
+    robot_ns.setJointAngles(init_theta1, init_theta2, init_theta3);
+    double ns_t1, ns_t2, ns_t3;
+
+    std::cout << "\n[Gradient Descent with Null-Space (Elbow-Up)]\n";
+    if (IK_ElbowUp::gradientDescentIK(robot_ns, target_x, target_y, target_phi, ns_t1, ns_t2, ns_t3)) {
+        std::cout << "Thetas: " << ns_t1 << ", " << ns_t2 << ", " << ns_t3 << "\n";
+        double x, y, phi;
+        getEndEffectorPose(robot_ns, x, y, phi);
+        std::cout << "FK Pose: x = " << x << ", y = " << y << ", phi = " << phi << "\n";
+    } else {
+        std::cout << "Elbow-Up IK failed.\n";
+    }
+
+    std::cout << "\n[Comparison Done]\n";
+    
 
     return 0;
 }

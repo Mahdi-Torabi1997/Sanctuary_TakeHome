@@ -54,26 +54,6 @@ ABSL_USE_GOOGLETEST_HEAD:BOOL=OFF
 // includes
 ABSL_USE_SYSTEM_INCLUDES:BOOL=OFF
 
-//Generate environment files in the CMAKE_INSTALL_PREFIX
-AMENT_CMAKE_ENVIRONMENT_GENERATION:BOOL=OFF
-
-//Generate environment files in the package share folder
-AMENT_CMAKE_ENVIRONMENT_PACKAGE_GENERATION:BOOL=ON
-
-//Generate marker file containing the parent prefix path
-AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
-
-//Replace the CMake install command with a custom implementation
-// using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
-
-//Generate an uninstall target to revert the effects of the install
-// step
-AMENT_CMAKE_UNINSTALL_TARGET:BOOL=ON
-
-//The path where test results are generated
-AMENT_TEST_RESULTS_DIR:PATH=/home/mato/cpp_projects/Sanctuary/build/test_results
-
 //Build the testing tree.
 BUILD_TESTING:BOOL=OFF
 
@@ -386,20 +366,11 @@ OSQP_BUILD_TESTS:BOOL=OFF
 
 OSQP_ENABLE_TESTS:BOOL=OFF
 
-//Arguments to supply to pkg-config
-PKG_CONFIG_ARGN:STRING=
-
-//pkg-config executable
-PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
-
 //Enable solver printing
 PRINTING:BOOL=ON
 
 //Enable solver profiling (timing)
 PROFILING:BOOL=ON
-
-//Path to a program.
-Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Value Computed by CMake
 Sanctuary_BINARY_DIR:STATIC=/home/mato/cpp_projects/Sanctuary/build
@@ -413,9 +384,6 @@ Sanctuary_SOURCE_DIR:STATIC=/home/mato/cpp_projects/Sanctuary
 //Enable unittests generation
 UNITTESTS:BOOL=OFF
 
-//Path to a library.
-_lib:FILEPATH=/usr/local/lib/libquik__rosidl_typesupport_fastrtps_cpp.so
-
 //Value Computed by CMake
 absl_BINARY_DIR:STATIC=/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-build
 
@@ -424,66 +392,6 @@ absl_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 absl_SOURCE_DIR:STATIC=/home/mato/cpp_projects/Sanctuary/build/_deps/abseil-cpp-src
-
-//The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake/share/ament_cmake/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_core.
-ament_cmake_core_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_export_definitions.
-ament_cmake_export_definitions_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_export_dependencies.
-ament_cmake_export_dependencies_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_export_include_directories.
-ament_cmake_export_include_directories_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_export_interfaces.
-ament_cmake_export_interfaces_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_export_libraries.
-ament_cmake_export_libraries_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_export_libraries/share/ament_cmake_export_libraries/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_export_link_flags.
-ament_cmake_export_link_flags_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_export_link_flags/share/ament_cmake_export_link_flags/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_export_targets.
-ament_cmake_export_targets_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_export_targets/share/ament_cmake_export_targets/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_gen_version_h.
-ament_cmake_gen_version_h_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_include_directories.
-ament_cmake_include_directories_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_include_directories/share/ament_cmake_include_directories/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_libraries.
-ament_cmake_libraries_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_python.
-ament_cmake_python_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_python/share/ament_cmake_python/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_target_dependencies.
-ament_cmake_target_dependencies_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_test.
-ament_cmake_test_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_version.
-ament_cmake_version_DIR:PATH=/home/mato/ros2_humble/install/ament_cmake_version/share/ament_cmake_version/cmake
-
-//The directory containing a CMake configuration file for builtin_interfaces.
-builtin_interfaces_DIR:PATH=/home/mato/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/cmake
-
-//The directory containing a CMake configuration file for fastcdr.
-fastcdr_DIR:PATH=/home/mato/ros2_humble/install/fastcdr/lib/cmake/fastcdr
-
-//The directory containing a CMake configuration file for fastrtps_cmake_module.
-fastrtps_cmake_module_DIR:PATH=/home/mato/ros2_humble/install/fastrtps_cmake_module/share/fastrtps_cmake_module/cmake
-
-//The directory containing a CMake configuration file for geometry_msgs.
-geometry_msgs_DIR:PATH=/home/mato/ros2_humble/install/geometry_msgs/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 osqp-cpp_BINARY_DIR:STATIC=/home/mato/cpp_projects/Sanctuary/build/osqp-cpp
@@ -503,42 +411,6 @@ osqp_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 osqp_SOURCE_DIR:STATIC=/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src
 
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_boost_filesystem:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_boost_serialization:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_serialization.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_boost_system:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_casadi:FILEPATH=/opt/openrobots/lib/libcasadi.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_console_bridge:FILEPATH=/usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_pinocchio_casadi:FILEPATH=/opt/openrobots/lib/libpinocchio_casadi.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_pinocchio_default:FILEPATH=/opt/openrobots/lib/libpinocchio_default.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_pinocchio_parsers:FILEPATH=/opt/openrobots/lib/libpinocchio_parsers.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_urdfdom_model:FILEPATH=/home/mato/ros2_humble/install/urdfdom/lib/liburdfdom_model.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_urdfdom_model_state:FILEPATH=/home/mato/ros2_humble/install/urdfdom/lib/liburdfdom_model_state.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_urdfdom_sensor:FILEPATH=/home/mato/ros2_humble/install/urdfdom/lib/liburdfdom_sensor.so
-
-//Path to a library.
-pkgcfg_lib_PINOCCHIO_urdfdom_world:FILEPATH=/home/mato/ros2_humble/install/urdfdom/lib/liburdfdom_world.so
-
 //Value Computed by CMake
 qdldl_BINARY_DIR:STATIC=/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources
 
@@ -547,63 +419,6 @@ qdldl_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 qdldl_SOURCE_DIR:STATIC=/home/mato/cpp_projects/Sanctuary/build/_deps/osqp-src/lin_sys/direct/qdldl/qdldl_sources
-
-//The directory containing a CMake configuration file for quik.
-quik_DIR:PATH=/usr/local/share/quik/cmake
-
-//The directory containing a CMake configuration file for rcpputils.
-rcpputils_DIR:PATH=/home/mato/ros2_humble/install/rcpputils/share/rcpputils/cmake
-
-//The directory containing a CMake configuration file for rcutils.
-rcutils_DIR:PATH=/home/mato/ros2_humble/install/rcutils/share/rcutils/cmake
-
-//The directory containing a CMake configuration file for rmw.
-rmw_DIR:PATH=/home/mato/ros2_humble/install/rmw/share/rmw/cmake
-
-//The directory containing a CMake configuration file for rosidl_adapter.
-rosidl_adapter_DIR:PATH=/home/mato/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake
-
-//The directory containing a CMake configuration file for rosidl_cmake.
-rosidl_cmake_DIR:PATH=/home/mato/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake
-
-//The directory containing a CMake configuration file for rosidl_default_runtime.
-rosidl_default_runtime_DIR:PATH=/home/mato/ros2_humble/install/rosidl_default_runtime/share/rosidl_default_runtime/cmake
-
-//The directory containing a CMake configuration file for rosidl_generator_c.
-rosidl_generator_c_DIR:PATH=/home/mato/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_generator_cpp.
-rosidl_generator_cpp_DIR:PATH=/home/mato/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake
-
-//The directory containing a CMake configuration file for rosidl_runtime_c.
-rosidl_runtime_c_DIR:PATH=/home/mato/ros2_humble/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_runtime_cpp.
-rosidl_runtime_cpp_DIR:PATH=/home/mato/ros2_humble/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_c.
-rosidl_typesupport_c_DIR:PATH=/home/mato/ros2_humble/install/rosidl_typesupport_c/share/rosidl_typesupport_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_cpp.
-rosidl_typesupport_cpp_DIR:PATH=/home/mato/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_c.
-rosidl_typesupport_fastrtps_c_DIR:PATH=/home/mato/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_cpp.
-rosidl_typesupport_fastrtps_cpp_DIR:PATH=/home/mato/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_interface.
-rosidl_typesupport_interface_DIR:PATH=/home/mato/ros2_humble/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_introspection_c.
-rosidl_typesupport_introspection_c_DIR:PATH=/home/mato/ros2_humble/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
-rosidl_typesupport_introspection_cpp_DIR:PATH=/home/mato/ros2_humble/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/cmake
-
-//The directory containing a CMake configuration file for std_msgs.
-std_msgs_DIR:PATH=/home/mato/ros2_humble/install/std_msgs/share/std_msgs/cmake
 
 
 ########################
@@ -680,8 +495,6 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
@@ -795,84 +608,10 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding GTest
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake][c ][v1.11.0()]
-//Details about finding PkgConfig
-FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
-//Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
-PINOCCHIO_CFLAGS:INTERNAL=-DPINOCCHIO_WITH_URDFDOM;-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION;-I/opt/openrobots/lib/pkgconfig/../../include;-I/opt/openrobots/include;-I/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../include/urdfdom;-I/home/mato/ros2_humble/install/urdfdom_headers/include/urdfdom_headers;-I/usr/include/eigen3
-PINOCCHIO_CFLAGS_I:INTERNAL=
-PINOCCHIO_CFLAGS_OTHER:INTERNAL=-DPINOCCHIO_WITH_URDFDOM;-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION
-PINOCCHIO_FOUND:INTERNAL=1
-PINOCCHIO_INCLUDEDIR:INTERNAL=/opt/openrobots/lib/pkgconfig/../../include
-PINOCCHIO_INCLUDE_DIRS:INTERNAL=/opt/openrobots/lib/pkgconfig/../../include;/opt/openrobots/include;/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../include/urdfdom;/home/mato/ros2_humble/install/urdfdom_headers/include/urdfdom_headers;/usr/include/eigen3
-PINOCCHIO_LDFLAGS:INTERNAL=-L/opt/openrobots/lib/pkgconfig/../../lib;-L/opt/openrobots/lib;-L/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../lib;-L/usr/lib/x86_64-linux-gnu;-Wl,-rpath,/opt/openrobots/lib/pkgconfig/../../lib;-lpinocchio_default;-lpinocchio_parsers;-lpinocchio_casadi;-lboost_filesystem;-lboost_serialization;-lboost_system;-lurdfdom_sensor;-lurdfdom_model_state;-lurdfdom_model;-lurdfdom_world;-lconsole_bridge;-Wl,-rpath,/opt/openrobots/lib;-lcasadi
-PINOCCHIO_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/opt/openrobots/lib/pkgconfig/../../lib;-Wl,-rpath,/opt/openrobots/lib
-PINOCCHIO_LIBDIR:INTERNAL=/opt/openrobots/lib/pkgconfig/../../lib
-PINOCCHIO_LIBRARIES:INTERNAL=pinocchio_default;pinocchio_parsers;pinocchio_casadi;boost_filesystem;boost_serialization;boost_system;urdfdom_sensor;urdfdom_model_state;urdfdom_model;urdfdom_world;console_bridge;casadi
-PINOCCHIO_LIBRARY_DIRS:INTERNAL=/opt/openrobots/lib/pkgconfig/../../lib;/opt/openrobots/lib;/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu
-PINOCCHIO_LIBS:INTERNAL=
-PINOCCHIO_LIBS_L:INTERNAL=
-PINOCCHIO_LIBS_OTHER:INTERNAL=
-PINOCCHIO_LIBS_PATHS:INTERNAL=
-PINOCCHIO_MODULE_NAME:INTERNAL=pinocchio
-PINOCCHIO_PREFIX:INTERNAL=/opt/openrobots/lib/pkgconfig/../..
-PINOCCHIO_STATIC_CFLAGS:INTERNAL=-DPINOCCHIO_WITH_URDFDOM;-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION;-I/opt/openrobots/lib/pkgconfig/../../include;-I/opt/openrobots/include;-I/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../include/urdfdom;-I/home/mato/ros2_humble/install/urdfdom_headers/include/urdfdom_headers;-I/usr/include/eigen3
-PINOCCHIO_STATIC_CFLAGS_I:INTERNAL=
-PINOCCHIO_STATIC_CFLAGS_OTHER:INTERNAL=-DPINOCCHIO_WITH_URDFDOM;-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION
-PINOCCHIO_STATIC_INCLUDE_DIRS:INTERNAL=/opt/openrobots/lib/pkgconfig/../../include;/opt/openrobots/include;/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../include/urdfdom;/home/mato/ros2_humble/install/urdfdom_headers/include/urdfdom_headers;/usr/include/eigen3
-PINOCCHIO_STATIC_LDFLAGS:INTERNAL=-L/opt/openrobots/lib/pkgconfig/../../lib;-L/opt/openrobots/lib;-L/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../lib;-L/usr/lib/x86_64-linux-gnu;-Wl,-rpath,/opt/openrobots/lib/pkgconfig/../../lib;-lpinocchio_default;-lpinocchio_parsers;-lpinocchio_casadi;-lboost_filesystem;-lboost_serialization;-lboost_system;-lurdfdom_sensor;-lurdfdom_model_state;-lurdfdom_model;-lurdfdom_world;-lconsole_bridge;-Wl,-rpath,/opt/openrobots/lib;-lcasadi
-PINOCCHIO_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/opt/openrobots/lib/pkgconfig/../../lib;-Wl,-rpath,/opt/openrobots/lib
-PINOCCHIO_STATIC_LIBDIR:INTERNAL=
-PINOCCHIO_STATIC_LIBRARIES:INTERNAL=pinocchio_default;pinocchio_parsers;pinocchio_casadi;boost_filesystem;boost_serialization;boost_system;urdfdom_sensor;urdfdom_model_state;urdfdom_model;urdfdom_world;console_bridge;casadi
-PINOCCHIO_STATIC_LIBRARY_DIRS:INTERNAL=/opt/openrobots/lib/pkgconfig/../../lib;/opt/openrobots/lib;/home/mato/ros2_humble/install/urdfdom/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu
-PINOCCHIO_STATIC_LIBS:INTERNAL=
-PINOCCHIO_STATIC_LIBS_L:INTERNAL=
-PINOCCHIO_STATIC_LIBS_OTHER:INTERNAL=
-PINOCCHIO_STATIC_LIBS_PATHS:INTERNAL=
-PINOCCHIO_VERSION:INTERNAL=3.4.0
-PINOCCHIO_pinocchio_INCLUDEDIR:INTERNAL=
-PINOCCHIO_pinocchio_LIBDIR:INTERNAL=
-PINOCCHIO_pinocchio_PREFIX:INTERNAL=
-PINOCCHIO_pinocchio_VERSION:INTERNAL=
-//ADVANCED property for variable: PKG_CONFIG_ARGN
-PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
-PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
-_Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
-//Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
-__pkg_config_arguments_PINOCCHIO:INTERNAL=pinocchio
-__pkg_config_checked_PINOCCHIO:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_boost_filesystem
-pkgcfg_lib_PINOCCHIO_boost_filesystem-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_boost_serialization
-pkgcfg_lib_PINOCCHIO_boost_serialization-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_boost_system
-pkgcfg_lib_PINOCCHIO_boost_system-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_casadi
-pkgcfg_lib_PINOCCHIO_casadi-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_console_bridge
-pkgcfg_lib_PINOCCHIO_console_bridge-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_pinocchio_casadi
-pkgcfg_lib_PINOCCHIO_pinocchio_casadi-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_pinocchio_default
-pkgcfg_lib_PINOCCHIO_pinocchio_default-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_pinocchio_parsers
-pkgcfg_lib_PINOCCHIO_pinocchio_parsers-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_urdfdom_model
-pkgcfg_lib_PINOCCHIO_urdfdom_model-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_urdfdom_model_state
-pkgcfg_lib_PINOCCHIO_urdfdom_model_state-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_urdfdom_sensor
-pkgcfg_lib_PINOCCHIO_urdfdom_sensor-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PINOCCHIO_urdfdom_world
-pkgcfg_lib_PINOCCHIO_urdfdom_world-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/opt/openrobots/lib/pkgconfig/../../lib
 

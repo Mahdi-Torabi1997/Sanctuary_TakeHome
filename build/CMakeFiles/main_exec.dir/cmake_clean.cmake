@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main_exec.dir/src/ForwardKinematics.cpp.o.d"
   "CMakeFiles/main_exec.dir/src/GradientDescentIK.cpp.o"
   "CMakeFiles/main_exec.dir/src/GradientDescentIK.cpp.o.d"
+  "CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o"
+  "CMakeFiles/main_exec.dir/src/GradientDescentIKElbowUp.cpp.o.d"
   "CMakeFiles/main_exec.dir/src/InverseKinematics.cpp.o"
   "CMakeFiles/main_exec.dir/src/InverseKinematics.cpp.o.d"
   "CMakeFiles/main_exec.dir/src/Jacobian.cpp.o"

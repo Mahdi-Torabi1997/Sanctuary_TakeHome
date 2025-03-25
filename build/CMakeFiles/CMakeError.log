@@ -23,3 +23,28 @@ Source file was:
 #endif
 int main() { return 0; }
 
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX20 failed with the following output:
+Change Dir: /home/mato/cpp_projects/Sanctuary/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d58c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d58c.dir/build.make CMakeFiles/cmTC_3d58c.dir/build
+gmake[1]: Entering directory '/home/mato/cpp_projects/Sanctuary/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d58c.dir/src.cxx.o
+/usr/bin/c++ -DABSL_INTERNAL_AT_LEAST_CXX20  -std=gnu++17 -o CMakeFiles/cmTC_3d58c.dir/src.cxx.o -c /home/mato/cpp_projects/Sanctuary/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mato/cpp_projects/Sanctuary/build/CMakeFiles/CMakeTmp/src.cxx:6:4: error: #error "The compiler defaults or is configured for C++ < 20"
+    6 | #  error "The compiler defaults or is configured for C++ < 20"
+      |    ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_3d58c.dir/build.make:78: CMakeFiles/cmTC_3d58c.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/mato/cpp_projects/Sanctuary/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3d58c/fast] Error 2
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 202002L
+#    error "The compiler defaults or is configured for C++ < 20"
+#  endif
+#elif __cplusplus < 202002L
+#  error "The compiler defaults or is configured for C++ < 20"
+#endif
+int main() { return 0; }
+

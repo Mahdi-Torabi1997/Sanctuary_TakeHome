@@ -849,7 +849,7 @@ CMakeFiles/main_exec.dir/all: _deps/osqp-build/CMakeFiles/osqpstatic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main_exec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 58
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_exec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : CMakeFiles/main_exec.dir/rule
@@ -940,7 +940,7 @@ osqp-cpp/CMakeFiles/osqp-cpp.dir/all: _deps/osqp-build/CMakeFiles/osqpstatic.dir
 
 # Build rule for subdir invocation for target.
 osqp-cpp/CMakeFiles/osqp-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 osqp-cpp/CMakeFiles/osqp-cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : osqp-cpp/CMakeFiles/osqp-cpp.dir/rule
@@ -987,12 +987,12 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_log_severity.dir/clean:
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/all: _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_log_severity.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=51 "Built target absl_raw_logging_internal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_raw_logging_internal"
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/rule
@@ -1047,7 +1047,7 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/all: _deps/
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/rule
@@ -1075,7 +1075,7 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/all: _deps/abseil-cpp-
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/rule
@@ -1097,12 +1097,12 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/all: _deps/a
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/all: _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=70 "Built target absl_throw_delegate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_throw_delegate"
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/rule
@@ -1124,7 +1124,7 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_scoped_set_env.dir/all: _deps/a
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_scoped_set_env.dir/all: _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_scoped_set_env.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_scoped_set_env.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_scoped_set_env.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_scoped_set_env.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_scoped_set_env"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=51 "Built target absl_scoped_set_env"
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_scoped_set_env.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1180,12 +1180,12 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/all: _deps/abseil-cp
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/all: _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/build.make _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=42 "Built target absl_poison"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_poison"
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_poison.dir/rule
@@ -1214,7 +1214,7 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/all: _deps
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/rule
@@ -1259,12 +1259,12 @@ _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all
 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_hashtablez_sampler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=27 "Built target absl_hashtablez_sampler"
 .PHONY : _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule
@@ -1328,7 +1328,7 @@ _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/all: _dep
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule
@@ -1357,7 +1357,7 @@ _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/all: _deps/ab
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/rule
@@ -1387,7 +1387,7 @@ _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/all: _deps/abse
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/rule
@@ -1419,12 +1419,12 @@ _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/all: _deps/abseil-cpp
 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/all: _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/build.make _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/build.make _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=10 "Built target absl_crc32c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=9,10 "Built target absl_crc32c"
 .PHONY : _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/rule
@@ -1462,7 +1462,7 @@ _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/all: _deps/ab
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/rule
@@ -1485,12 +1485,12 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/all: _deps/
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/all: _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/build.make _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=53 "Built target absl_stacktrace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_stacktrace"
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/rule
@@ -1530,7 +1530,7 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/all: _deps/a
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/rule
@@ -1572,7 +1572,7 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_examine_stack.dir/all: _de
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_examine_stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_examine_stack.dir/rule
@@ -1610,12 +1610,12 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all: _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_failure_signal_handler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=18 "Built target absl_failure_signal_handler"
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule
@@ -1642,7 +1642,7 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/rule
@@ -1674,7 +1674,7 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/all:
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/rule
@@ -1704,7 +1704,7 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/a
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/rule
@@ -1735,7 +1735,7 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/all: _de
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/rule
@@ -1836,7 +1836,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_program_name.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_program_name.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_program_name.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_program_name.dir/rule
@@ -1886,7 +1886,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_config.dir/all: _deps/ab
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_config.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_config.dir/rule
@@ -1921,7 +1921,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_marshalling.dir/all: _de
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_marshalling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_marshalling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_marshalling.dir/rule
@@ -1982,7 +1982,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/all:
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/rule
@@ -2018,7 +2018,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/rule
@@ -2088,7 +2088,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/all: _dep
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 49
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/rule
@@ -2143,7 +2143,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_internal.dir/all: _deps/
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_internal.dir/rule
@@ -2216,7 +2216,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/all: 
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/rule
@@ -2290,7 +2290,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/all: _deps/abs
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/rule
@@ -2365,7 +2365,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/all: _deps/abs
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/rule
@@ -2396,12 +2396,12 @@ _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/all: _deps/abseil-cpp-
 _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/all: _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/build.make _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/build.make _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=27 "Built target absl_hash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_hash"
 .PHONY : _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/rule
@@ -2430,7 +2430,7 @@ _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/all: _deps/abseil-cpp-
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/rule
@@ -2460,7 +2460,7 @@ _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_low_level_hash.dir/all: _deps/a
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_low_level_hash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_low_level_hash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_low_level_hash.dir/rule
@@ -2527,7 +2527,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/all: _
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/rule
@@ -2556,7 +2556,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/all:
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/rule
@@ -2595,7 +2595,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/all: _de
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/rule
@@ -2627,12 +2627,12 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/all: _d
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=35 "Built target absl_log_internal_globals"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_log_internal_globals"
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/rule
@@ -2666,7 +2666,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_proto.dir/all: _dep
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_proto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_proto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_proto.dir/rule
@@ -2731,7 +2731,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/rule
@@ -2783,12 +2783,12 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/al
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_log_internal_log_sink_set"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=35 "Built target absl_log_internal_log_sink_set"
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/rule
@@ -2881,7 +2881,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_die_if_null.dir/all: _deps/absei
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_die_if_null.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_die_if_null.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_die_if_null.dir/rule
@@ -2957,7 +2957,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/all: _deps/abseil-
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/rule
@@ -3011,7 +3011,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_globals.dir/all: _deps/absei
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_globals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_globals.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_globals.dir/rule
@@ -3067,7 +3067,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_initialize.dir/all: _deps/ab
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_initialize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_initialize.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_initialize.dir/rule
@@ -3104,7 +3104,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_sink.dir/all: _deps/abseil-c
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_sink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_sink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_sink.dir/rule
@@ -3139,7 +3139,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_structured_proto.di
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_structured_proto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_structured_proto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_structured_proto.dir/rule
@@ -3184,12 +3184,12 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all: _d
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=77 "Built target absl_vlog_config_internal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_vlog_config_internal"
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/rule
@@ -3223,7 +3223,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/rule
@@ -3252,7 +3252,7 @@ _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/all: _deps/abseil
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/rule
@@ -3273,12 +3273,12 @@ _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/clean:
 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=18 "Built target absl_exponential_biased"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_exponential_biased"
 .PHONY : _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule
@@ -3304,7 +3304,7 @@ _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/all: 
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule
@@ -3333,12 +3333,12 @@ _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all:
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all: _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=43 "Built target absl_random_distributions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=42 "Built target absl_random_distributions"
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/rule
@@ -3365,7 +3365,7 @@ _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/rule
@@ -3422,7 +3422,7 @@ _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_sequences.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_sequences.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_sequences.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_seed_sequences.dir/rule
@@ -3456,7 +3456,7 @@ _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_seed_material
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/rule
@@ -3507,12 +3507,12 @@ _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_random_internal_entropy_pool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=44 "Built target absl_random_internal_entropy_pool"
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/rule
@@ -3676,12 +3676,12 @@ _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/all: _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=44 "Built target absl_random_internal_distribution_test_util"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=43 "Built target absl_random_internal_distribution_test_util"
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_internal_distribution_test_util.dir/rule
@@ -3738,12 +3738,12 @@ _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/all: _deps/abseil-
 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/build.make _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/build.make _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=54 "Built target absl_status"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=53,54 "Built target absl_status"
 .PHONY : _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/rule
@@ -3806,7 +3806,7 @@ _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/all: _deps/absei
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/rule
@@ -3836,7 +3836,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_string_view.dir/all: _deps/a
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_string_view.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_string_view.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_string_view.dir/rule
@@ -3869,7 +3869,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/all: _deps/absei
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/rule
@@ -3898,7 +3898,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/rule
@@ -3932,7 +3932,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/all:
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/rule
@@ -3972,7 +3972,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/all: _deps
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/rule
@@ -4000,7 +4000,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/all: _de
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/rule
@@ -4049,7 +4049,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/all: _deps/
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/rule
@@ -4107,7 +4107,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/all: _deps/ab
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/rule
@@ -4161,12 +4161,12 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all: 
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/build.make _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/build.make _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=9 "Built target absl_cordz_sample_token"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target absl_cordz_sample_token"
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/rule
@@ -4225,7 +4225,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/all: _deps/abseil-c
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/rule
@@ -4255,7 +4255,7 @@ _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/rule
@@ -4292,7 +4292,7 @@ _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_inter
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/rule
@@ -4340,7 +4340,7 @@ _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/rule
@@ -4371,12 +4371,12 @@ _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/all: _deps/abseil-cpp-
 _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/build.make _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/build.make _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=71,72 "Built target absl_time"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=70,71 "Built target absl_time"
 .PHONY : _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/rule
@@ -4423,12 +4423,12 @@ _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_civil_time.dir/clean:
 _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/build.make _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/build.make _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=73,74,75 "Built target absl_time_zone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=72,73,74,75 "Built target absl_time_zone"
 .PHONY : _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/rule
@@ -4451,7 +4451,7 @@ _deps/osqp-build/CMakeFiles/osqpstatic.dir/all: _deps/osqp-build/lin_sys/direct/
 _deps/osqp-build/CMakeFiles/osqpstatic.dir/all: _deps/osqp-build/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlobject.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/osqp-build/CMakeFiles/osqpstatic.dir/build.make _deps/osqp-build/CMakeFiles/osqpstatic.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/osqp-build/CMakeFiles/osqpstatic.dir/build.make _deps/osqp-build/CMakeFiles/osqpstatic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=91,92,93,94,95 "Built target osqpstatic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=92,93,94,95 "Built target osqpstatic"
 .PHONY : _deps/osqp-build/CMakeFiles/osqpstatic.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4484,7 +4484,7 @@ _deps/osqp-build/CMakeFiles/osqp.dir/all: _deps/osqp-build/lin_sys/direct/qdldl/
 
 # Build rule for subdir invocation for target.
 _deps/osqp-build/CMakeFiles/osqp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/osqp-build/CMakeFiles/osqp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/osqp-build/CMakeFiles/osqp.dir/rule
@@ -4505,12 +4505,12 @@ _deps/osqp-build/CMakeFiles/osqp.dir/clean:
 _deps/osqp-build/CMakeFiles/osqp_demo.dir/all: _deps/osqp-build/CMakeFiles/osqpstatic.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/osqp-build/CMakeFiles/osqp_demo.dir/build.make _deps/osqp-build/CMakeFiles/osqp_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/osqp-build/CMakeFiles/osqp_demo.dir/build.make _deps/osqp-build/CMakeFiles/osqp_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target osqp_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=91 "Built target osqp_demo"
 .PHONY : _deps/osqp-build/CMakeFiles/osqp_demo.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/osqp-build/CMakeFiles/osqp_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/osqp-build/CMakeFiles/osqp_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/osqp-build/CMakeFiles/osqp_demo.dir/rule
@@ -4531,12 +4531,12 @@ _deps/osqp-build/CMakeFiles/osqp_demo.dir/clean:
 _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/build.make _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/build.make _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num= "Built target linsys_pardiso"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mato/cpp_projects/Sanctuary/build/CMakeFiles --progress-num=77 "Built target linsys_pardiso"
 .PHONY : _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mato/cpp_projects/Sanctuary/build/CMakeFiles 0
 .PHONY : _deps/osqp-build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/rule

@@ -1,5 +1,15 @@
-ForwardKinematicsTest.ZeroPosition 1 0.00891482
-InverseKinematicsTest.SolvesForValidPose 1 0.0155977
-InverseKinematicsTest.RejectsUnreachablePose 1 0.00745301
-IKFKIntegrationTest.PoseRecoveredAfterIKandFK 1 0.00764677
+ForwardKinematicsTest.ZeroPosition 2 0.00357205
+InverseKinematicsTest.SolvesForValidPose 4 0.00158917
+InverseKinematicsTest.RejectsUnreachablePose 4 0.00179611
+IKFKIntegrationTest.PoseRecoveredAfterIKandFK 2 0.00305068
+ForwardKinematicsTest.ZeroAngles 2 0.00458252
+ForwardKinematicsTest.AllJointsPiOver2 2 0.00676818
+ForwardKinematicsTest.NegativeAngles 2 0.00414189
+ForwardKinematicsTest.MixedAngles 1 0.0106208
+ForwardKinematicsTest.CumulativeRotation 2 0.00317101
+IKFKIntegrationTest.BasicPose 2 0.00384851
+IKFKIntegrationTest.StraightReachPose 1 0.00850778
+IKFKIntegrationTest.UpwardPose 2 0.00601601
+IKFKIntegrationTest.NegativePhiPose 2 0.0067108
+IKFKIntegrationTest.DiagonalPose 2 0.00635639
 ---

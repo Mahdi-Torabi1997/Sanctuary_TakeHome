@@ -1,19 +1,19 @@
-Start testing: Mar 22 18:31 PDT
+Start testing: Mar 24 22:01 PDT
 ----------------------------------------------------------
-1/4 Testing: ForwardKinematicsTest.ZeroPosition
-1/4 Test: ForwardKinematicsTest.ZeroPosition
-Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=ForwardKinematicsTest.ZeroPosition" "--gtest_also_run_disabled_tests"
+1/12 Testing: ForwardKinematicsTest.ZeroAngles
+1/12 Test: ForwardKinematicsTest.ZeroAngles
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=ForwardKinematicsTest.ZeroAngles" "--gtest_also_run_disabled_tests"
 Directory: /home/mato/cpp_projects/Sanctuary/build
-"ForwardKinematicsTest.ZeroPosition" start time: Mar 22 18:31 PDT
+"ForwardKinematicsTest.ZeroAngles" start time: Mar 24 22:01 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = ForwardKinematicsTest.ZeroPosition
+Note: Google Test filter = ForwardKinematicsTest.ZeroAngles
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from ForwardKinematicsTest
-[ RUN      ] ForwardKinematicsTest.ZeroPosition
-[       OK ] ForwardKinematicsTest.ZeroPosition (0 ms)
+[ RUN      ] ForwardKinematicsTest.ZeroAngles
+[       OK ] ForwardKinematicsTest.ZeroAngles (0 ms)
 [----------] 1 test from ForwardKinematicsTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -23,15 +23,123 @@ Note: Google Test filter = ForwardKinematicsTest.ZeroPosition
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ForwardKinematicsTest.ZeroPosition" end time: Mar 22 18:31 PDT
-"ForwardKinematicsTest.ZeroPosition" time elapsed: 00:00:00
+"ForwardKinematicsTest.ZeroAngles" end time: Mar 24 22:01 PDT
+"ForwardKinematicsTest.ZeroAngles" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: InverseKinematicsTest.SolvesForValidPose
-2/4 Test: InverseKinematicsTest.SolvesForValidPose
+2/12 Testing: ForwardKinematicsTest.AllJointsPiOver2
+2/12 Test: ForwardKinematicsTest.AllJointsPiOver2
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=ForwardKinematicsTest.AllJointsPiOver2" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"ForwardKinematicsTest.AllJointsPiOver2" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ForwardKinematicsTest.AllJointsPiOver2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ForwardKinematicsTest
+[ RUN      ] ForwardKinematicsTest.AllJointsPiOver2
+[       OK ] ForwardKinematicsTest.AllJointsPiOver2 (0 ms)
+[----------] 1 test from ForwardKinematicsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ForwardKinematicsTest.AllJointsPiOver2" end time: Mar 24 22:01 PDT
+"ForwardKinematicsTest.AllJointsPiOver2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: ForwardKinematicsTest.NegativeAngles
+3/12 Test: ForwardKinematicsTest.NegativeAngles
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=ForwardKinematicsTest.NegativeAngles" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"ForwardKinematicsTest.NegativeAngles" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ForwardKinematicsTest.NegativeAngles
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ForwardKinematicsTest
+[ RUN      ] ForwardKinematicsTest.NegativeAngles
+[       OK ] ForwardKinematicsTest.NegativeAngles (0 ms)
+[----------] 1 test from ForwardKinematicsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ForwardKinematicsTest.NegativeAngles" end time: Mar 24 22:01 PDT
+"ForwardKinematicsTest.NegativeAngles" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: ForwardKinematicsTest.MixedAngles
+4/12 Test: ForwardKinematicsTest.MixedAngles
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=ForwardKinematicsTest.MixedAngles" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"ForwardKinematicsTest.MixedAngles" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ForwardKinematicsTest.MixedAngles
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ForwardKinematicsTest
+[ RUN      ] ForwardKinematicsTest.MixedAngles
+[       OK ] ForwardKinematicsTest.MixedAngles (0 ms)
+[----------] 1 test from ForwardKinematicsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ForwardKinematicsTest.MixedAngles" end time: Mar 24 22:01 PDT
+"ForwardKinematicsTest.MixedAngles" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: ForwardKinematicsTest.CumulativeRotation
+5/12 Test: ForwardKinematicsTest.CumulativeRotation
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=ForwardKinematicsTest.CumulativeRotation" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"ForwardKinematicsTest.CumulativeRotation" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ForwardKinematicsTest.CumulativeRotation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ForwardKinematicsTest
+[ RUN      ] ForwardKinematicsTest.CumulativeRotation
+[       OK ] ForwardKinematicsTest.CumulativeRotation (0 ms)
+[----------] 1 test from ForwardKinematicsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ForwardKinematicsTest.CumulativeRotation" end time: Mar 24 22:01 PDT
+"ForwardKinematicsTest.CumulativeRotation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: InverseKinematicsTest.SolvesForValidPose
+6/12 Test: InverseKinematicsTest.SolvesForValidPose
 Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=InverseKinematicsTest.SolvesForValidPose" "--gtest_also_run_disabled_tests"
 Directory: /home/mato/cpp_projects/Sanctuary/build
-"InverseKinematicsTest.SolvesForValidPose" start time: Mar 22 18:31 PDT
+"InverseKinematicsTest.SolvesForValidPose" start time: Mar 24 22:01 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -47,18 +155,18 @@ Note: Google Test filter = InverseKinematicsTest.SolvesForValidPose
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InverseKinematicsTest.SolvesForValidPose" end time: Mar 22 18:31 PDT
+"InverseKinematicsTest.SolvesForValidPose" end time: Mar 24 22:01 PDT
 "InverseKinematicsTest.SolvesForValidPose" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: InverseKinematicsTest.RejectsUnreachablePose
-3/4 Test: InverseKinematicsTest.RejectsUnreachablePose
+7/12 Testing: InverseKinematicsTest.RejectsUnreachablePose
+7/12 Test: InverseKinematicsTest.RejectsUnreachablePose
 Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=InverseKinematicsTest.RejectsUnreachablePose" "--gtest_also_run_disabled_tests"
 Directory: /home/mato/cpp_projects/Sanctuary/build
-"InverseKinematicsTest.RejectsUnreachablePose" start time: Mar 22 18:31 PDT
+"InverseKinematicsTest.RejectsUnreachablePose" start time: Mar 24 22:01 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -77,24 +185,24 @@ Note: Google Test filter = InverseKinematicsTest.RejectsUnreachablePose
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InverseKinematicsTest.RejectsUnreachablePose" end time: Mar 22 18:31 PDT
+"InverseKinematicsTest.RejectsUnreachablePose" end time: Mar 24 22:01 PDT
 "InverseKinematicsTest.RejectsUnreachablePose" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: IKFKIntegrationTest.PoseRecoveredAfterIKandFK
-4/4 Test: IKFKIntegrationTest.PoseRecoveredAfterIKandFK
-Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=IKFKIntegrationTest.PoseRecoveredAfterIKandFK" "--gtest_also_run_disabled_tests"
+8/12 Testing: IKFKIntegrationTest.BasicPose
+8/12 Test: IKFKIntegrationTest.BasicPose
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=IKFKIntegrationTest.BasicPose" "--gtest_also_run_disabled_tests"
 Directory: /home/mato/cpp_projects/Sanctuary/build
-"IKFKIntegrationTest.PoseRecoveredAfterIKandFK" start time: Mar 22 18:31 PDT
+"IKFKIntegrationTest.BasicPose" start time: Mar 24 22:01 PDT
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = IKFKIntegrationTest.PoseRecoveredAfterIKandFK
+Note: Google Test filter = IKFKIntegrationTest.BasicPose
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from IKFKIntegrationTest
-[ RUN      ] IKFKIntegrationTest.PoseRecoveredAfterIKandFK
-[       OK ] IKFKIntegrationTest.PoseRecoveredAfterIKandFK (0 ms)
+[ RUN      ] IKFKIntegrationTest.BasicPose
+[       OK ] IKFKIntegrationTest.BasicPose (0 ms)
 [----------] 1 test from IKFKIntegrationTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -104,8 +212,116 @@ Note: Google Test filter = IKFKIntegrationTest.PoseRecoveredAfterIKandFK
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"IKFKIntegrationTest.PoseRecoveredAfterIKandFK" end time: Mar 22 18:31 PDT
-"IKFKIntegrationTest.PoseRecoveredAfterIKandFK" time elapsed: 00:00:00
+"IKFKIntegrationTest.BasicPose" end time: Mar 24 22:01 PDT
+"IKFKIntegrationTest.BasicPose" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 22 18:31 PDT
+9/12 Testing: IKFKIntegrationTest.StraightReachPose
+9/12 Test: IKFKIntegrationTest.StraightReachPose
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=IKFKIntegrationTest.StraightReachPose" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"IKFKIntegrationTest.StraightReachPose" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = IKFKIntegrationTest.StraightReachPose
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IKFKIntegrationTest
+[ RUN      ] IKFKIntegrationTest.StraightReachPose
+[       OK ] IKFKIntegrationTest.StraightReachPose (0 ms)
+[----------] 1 test from IKFKIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"IKFKIntegrationTest.StraightReachPose" end time: Mar 24 22:01 PDT
+"IKFKIntegrationTest.StraightReachPose" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: IKFKIntegrationTest.UpwardPose
+10/12 Test: IKFKIntegrationTest.UpwardPose
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=IKFKIntegrationTest.UpwardPose" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"IKFKIntegrationTest.UpwardPose" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = IKFKIntegrationTest.UpwardPose
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IKFKIntegrationTest
+[ RUN      ] IKFKIntegrationTest.UpwardPose
+[       OK ] IKFKIntegrationTest.UpwardPose (0 ms)
+[----------] 1 test from IKFKIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"IKFKIntegrationTest.UpwardPose" end time: Mar 24 22:01 PDT
+"IKFKIntegrationTest.UpwardPose" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: IKFKIntegrationTest.NegativePhiPose
+11/12 Test: IKFKIntegrationTest.NegativePhiPose
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=IKFKIntegrationTest.NegativePhiPose" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"IKFKIntegrationTest.NegativePhiPose" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = IKFKIntegrationTest.NegativePhiPose
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IKFKIntegrationTest
+[ RUN      ] IKFKIntegrationTest.NegativePhiPose
+[       OK ] IKFKIntegrationTest.NegativePhiPose (0 ms)
+[----------] 1 test from IKFKIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"IKFKIntegrationTest.NegativePhiPose" end time: Mar 24 22:01 PDT
+"IKFKIntegrationTest.NegativePhiPose" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: IKFKIntegrationTest.DiagonalPose
+12/12 Test: IKFKIntegrationTest.DiagonalPose
+Command: "/home/mato/cpp_projects/Sanctuary/build/unit_tests" "--gtest_filter=IKFKIntegrationTest.DiagonalPose" "--gtest_also_run_disabled_tests"
+Directory: /home/mato/cpp_projects/Sanctuary/build
+"IKFKIntegrationTest.DiagonalPose" start time: Mar 24 22:01 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = IKFKIntegrationTest.DiagonalPose
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IKFKIntegrationTest
+[ RUN      ] IKFKIntegrationTest.DiagonalPose
+[       OK ] IKFKIntegrationTest.DiagonalPose (0 ms)
+[----------] 1 test from IKFKIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"IKFKIntegrationTest.DiagonalPose" end time: Mar 24 22:01 PDT
+"IKFKIntegrationTest.DiagonalPose" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 24 22:01 PDT

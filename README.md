@@ -411,42 +411,10 @@ ctest --output-on-failure
 └── README.md              # This file
 ```
 
----
-
-## 🔍 Learnings and Evolution
-
-| Method         | Math Basis            | Strength            | Limitation            |
-|----------------|------------------------|----------------------|------------------------|
-| Analytical     | Trig geometry          | Fast, exact          | Ambiguous solutions   |
-| Gradient Descent | Optimization (1st-order) | Simple, intuitive     | Local minima          |
-| Levenberg-Marquardt | Gauss-Newton variant   | Stable, fast convergence | Requires damping tune |
-| QP             | Convex Optimization    | Constraints supported | Slower setup          |
-| Null-space     | Redundancy control     | Custom posture goals  | Extra computation     |
-
----
 
 ## 📌 Notes
 
 - ✅ You can set custom link lengths and joint angles via API.
-- ✅ Code is object-oriented for easy extensibility.
 - ✅ QP implementation uses [OSQP](https://osqp.org/) with Eigen support.
 - 🔧 `.gitignore` excludes `build/`, but **helper libs like OSQP** are included for portability.
 
----
-
-## 🙋‍♂️ About Me
-
-I'm **Mahdi Torabi**, a mechatronics engineer passionate about robotics, motion control, and simulation.  
-This repo demonstrates my ability to:
-- Analyze robotic systems
-- Implement optimization-based control
-- Write clean, tested C++ code
-
----
-
-## 🚀 Future Ideas
-
-- Visualize manipulator using matplotlib or 3D engines
-- Animate trajectory IK
-- Extend to 6DOF or SCARA arms
-- Add velocity and torque control modules

@@ -416,10 +416,39 @@ ctest --output-on-failure
 
 - ✅ You can set custom link lengths and joint angles via API.
 - ✅ QP implementation uses [OSQP](https://osqp.org/) with Eigen support.
-- 🔧 `.gitignore` excludes `build/`, but **helper libs like OSQP** are included for portability.
+- 🔧 `.gitignore` excludes `build/`, but **helper libs like OSQP** are included for portability as some files have been altered after cloning and their cmake has been changed to disable internal testing.
 
 ---
 
+##  Running with Docker
+
+This project is Dockerized to ensure consistent results 
+
+### Build and Run the Container
+
+```bash
+# Pull from Docker Hub (already built and tested)
+docker pull mahditorabi/cpp_takehome:latest
+
+# Run interactively
+sudo docker run -it mahditorabi/cpp_takehome:latest
+```
+
+Once inside the container:
+
+```bash
+cd /root/Sanctuary/build
+
+./main_exec      # Run your main IK/FK executable
+./unit_tests     # Run your GTest unit tests
+```
+
+The container includes:
+- OSQP built from source
+- `osqp-cpp` C++ wrapper
+- `Eigen3`, `GTest`, and `QuIK` installed
+- All build steps already completed
+- 
 ## Bonus Task: ROS 2 Integration
 
 As a bonus, this project includes a complete **ROS 2 package** demonstrating the use of forward and inverse kinematics through inter-node communication.
@@ -468,8 +497,13 @@ cpp_pkg/
 -source install/setup.bash
 ```
 
+
 Then launch the nodes:
 ```text
 -ros2 launch cpp_pkg cpp_pkg_launch.py
 ```
+
+---
+
+
 

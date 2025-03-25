@@ -463,11 +463,13 @@ cpp_pkg/
 └── package.xml
 ```
 ### How to Run
+```text
+-colcon build --packages-select cpp_pkg
+-source install/setup.bash
+```
 
-colcon build --packages-select cpp_pkg
-source install/setup.bash
 Then launch the nodes:
-
-
-ros2 launch cpp_pkg cpp_pkg_launch.py
+```text
+-ros2 launch cpp_pkg cpp_pkg_launch.py
+```
 

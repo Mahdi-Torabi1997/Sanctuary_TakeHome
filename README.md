@@ -187,7 +187,7 @@ $$
 \theta_1 = \text{atan2}(y_w, x_w) - \text{atan2}(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))
 $$
 
-5. **Solve for $ \theta_3 $**:
+5. **Solve for $ \theta_3 **:
 
 $$
 \theta_3 = \phi - (\theta_1 + \theta_2)

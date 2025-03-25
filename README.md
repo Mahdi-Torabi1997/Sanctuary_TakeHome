@@ -214,6 +214,8 @@ $$
 
 ## Numerical IK Methods
 
+## 🔢 Numerical IK Methods
+
 This section outlines the numerical inverse kinematics methods implemented in this project. These methods are useful when analytical solutions are unavailable, unstable, or need to be generalized for more complex robots.
 
 ---
@@ -222,73 +224,79 @@ This section outlines the numerical inverse kinematics methods implemented in th
 
 Gradient Descent minimizes the error between the desired and current end-effector pose through iterative updates.
 
-#### Update Rule:
+#### 📌 Update Rule
+
 $$
 \theta_{t+1} = \theta_t - \eta \nabla f(\theta_t)
 $$
 
 Where:
-- $\theta_t$ is the joint vector at iteration $t$,
-- $\eta$ is the learning rate,
-- $f(\theta) = \frac{1}{2} \| \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \|^2$ is the cost function (squared position error),
-- $\nabla f(\theta)$ is computed using the Jacobian transpose:
-  $$
-  \nabla f(\theta) = J(\theta)^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})
-  $$
+- $\theta_t$ is the joint vector at iteration $t$
+- $\eta$ is the learning rate
+- $f(\theta) = \frac{1}{2} \| \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \|^2$ is the cost function
+- $\nabla f(\theta)$ is computed via Jacobian transpose:
 
-#### Pros:
+$$
+\nabla f(\theta) = J(\theta)^T \left( \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \right)
+$$
+
+#### ✅ Pros
 - Simple and intuitive to implement
 - Low memory and compute cost
 
-#### Cons:
+#### ⚠️ Cons
 - Sensitive to learning rate
 - May converge slowly
 - Prone to local minima
 
 ---
 
-### 🔸 2. Adaptive Gradient Descent (Not implemented, but trivial to extend)
+### 🔸 2. Adaptive Gradient Descent *(not implemented)*
 
-You can improve vanilla GD with a decaying learning rate:
+Vanilla GD can be improved with a decaying learning rate:
 
-#### 📌 Adaptive Learning Rate:
+#### 📌 Adaptive Learning Rate
+
 $$
 \eta_t = \frac{\eta_0}{1 + \alpha t}
 $$
 
-Then update becomes:
+Update rule becomes:
+
 $$
 \theta_{t+1} = \theta_t - \eta_t \nabla f(\theta_t)
 $$
 
-#### Benefits:
-- Faster convergence far from target
+#### ✅ Benefits
+- Faster convergence far from the target
 - Better stability near solution
-- Simple to implement on top of existing GD
+- Easy to extend from basic GD
 
 ---
 
 ### 🔸 3. Levenberg-Marquardt (LM)
 
-A hybrid between **Gauss-Newton** and **Gradient Descent** that introduces a damping term.
+A hybrid of **Gauss-Newton** and **Gradient Descent** with a damping term for stability.
 
-#### Update Rule:
+#### 📌 Update Rule
+
 $$
-\Delta \theta = -(\mathbf{J}^T \mathbf{J} + \lambda \mathbf{I})^{-1} \mathbf{J}^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})
+\Delta \theta = -\left( J^T J + \lambda I \right)^{-1} J^T \left( \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \right)
 $$
 
 Where:
-- $\lambda$ is the damping factor,
-- $\mathbf{J}$ is the Jacobian matrix.
+- $J$ is the Jacobian matrix
+- $\lambda$ is a damping factor
+- $I$ is the identity matrix
 
-#### Pros:
+#### ✅ Pros
 - Faster convergence than GD
-- More robust near singularities
-- Works well in non-linear least squares
+- Robust near singularities
+- Handles mild non-linearity well
 
-#### Cons:
+#### ⚠️ Cons
 - Requires matrix inversion
-- Damping parameter needs tuning
+- Damping factor tuning needed
 
 ---
 
@@ -296,43 +304,47 @@ Where:
 
 Formulates IK as a constrained optimization problem.
 
-#### Form:
+#### 📌 Objective
+
 Minimize:
+
 $$
-\frac{1}{2} \Delta \theta^T \mathbf{P} \Delta \theta + \mathbf{q}^T \Delta \theta
+\frac{1}{2} \Delta \theta^T P \Delta \theta + q^T \Delta \theta
 $$
 
 Subject to:
+
 $$
 \theta_{\text{min}} \leq \theta + \Delta \theta \leq \theta_{\text{max}}
 $$
 
 Where:
-- $$\mathbf{P} = J^T J + \epsilon I$$ (regularized Hessian approximation),
-- $$\mathbf{q} = -J^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})$$
+- $P = J^T J + \epsilon I$ is the regularized Hessian
+- $q = -J^T \left( \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \right)$
 
- Solved using the [OSQP](https://osqp.org/) solver.
+✅ Solved using the [OSQP](https://osqp.org/) solver.
 
-#### Pros:
-- Handles joint limits and constraints
-- Stable even near boundaries
+#### ✅ Pros
+- Supports joint limits and inequality constraints
+- Stable even in redundant systems
 
-#### Cons:
+#### ⚠️ Cons
 - Slower per iteration
-- Requires external solver (e.g., OSQP)
+- Requires external QP solver
 
 ---
 
-### Summary
+### 📋 Summary
 
-| Method              | Advantages                        | Limitations                     |
-|---------------------|-----------------------------------|----------------------------------|
-| Gradient Descent    | Simple, fast                      | Can be unstable, slow to converge |
-| Adaptive GD         | Better stability                  | Requires decay tuning            |
-| Levenberg-Marquardt | Robust near singularities         | Requires damping parameter tuning |
-| Quadratic Programming | Supports constraints & bounds   | Needs external solver, slower   |
+| Method               | Advantages                         | Limitations                       |
+|----------------------|------------------------------------|------------------------------------|
+| Gradient Descent     | Simple, lightweight                | Sensitive to $\eta$, local minima  |
+| Adaptive GD          | Better stability, dynamic steps    | Needs decay tuning                 |
+| Levenberg-Marquardt  | Robust & fast convergence          | Damping parameter tuning           |
+| Quadratic Programming| Constraint handling, generalizable | Slower, requires solver            |
 
-These methods serve different purposes depending on the problem structure. For real-time control, LM or QP are generally preferred, while GD is great for intuition and prototyping.
+> For redundancy-aware control (3 DOF manipulator, 2 DOF task), QP and null-space optimization allow for additional posture objectives like joint comfort or collision avoidance.
+
 
 ## 🌀 Null-Space Optimization
 

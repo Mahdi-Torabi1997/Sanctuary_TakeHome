@@ -214,7 +214,7 @@ $$
 
 ## Numerical IK Methods
 
-## 🔢 Numerical IK Methods
+## Numerical IK Methods
 
 This section outlines the numerical inverse kinematics methods implemented in this project. These methods are useful when analytical solutions are unavailable, unstable, or need to be generalized for more complex robots.
 

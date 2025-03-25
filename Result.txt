@@ -1,0 +1,139 @@
+output of the main.cpp file
+
+mato@mato-VirtualBox:~/cpp_projects/Sanctuary/build$ /home/mato/cpp_projects/Sanctuary/build/main_exec
+
+ 
+Task two 
+Forward Kinematic Using Transformation Matrices 
+Forward Kinematics:
+T0ee:
+6.12323e-17          -1           0         0.3
+          1 6.12323e-17           0         0.4
+          0           0           1           0
+          0           0           0           1
+
+End-effector Pose:
+x = 0.300000, y = 0.400000, phi = 1.570796 rad
+
+ 
+Task Three 
+Forward Kinematic Using Transformation Matrices 
+
+Test Case 1:
+Desired Pose: x = 0.500000, y = 0.200000, phi = 0.785398
+
+ Algebraic IK Solution:
+theta1 = -0.434387, theta2 = 1.453835, theta3 = -0.234050
+Verification (FK): x = 0.500000, y = 0.200000, phi = 0.785398
+
+ Gradient Descent IK Solution:
+theta1 = -0.434387, theta2 = 1.453835, theta3 = -0.234050
+
+ Levenberg-Marquardt IK Solution:
+theta1 = -0.434387, theta2 = 1.453835, theta3 = -0.234050
+Converged after 0 iterations.
+
+ Quadratic Programming IK Solution:
+theta1 = -0.434387, theta2 = 1.453835, theta3 = -0.234050
+
+Test Case 2:
+Desired Pose: x = 0.300000, y = 0.300000, phi = 1.570796
+
+ Algebraic IK Solution:
+theta1 = -0.338136, theta2 = 1.852276, theta3 = 0.056656
+Verification (FK): x = 0.300000, y = 0.300000, phi = 1.570796
+
+ Gradient Descent IK Solution:
+theta1 = -0.338136, theta2 = 1.852276, theta3 = 0.056656
+
+ Levenberg-Marquardt IK Solution:
+theta1 = -0.338136, theta2 = 1.852276, theta3 = 0.056656
+Converged after 0 iterations.
+
+ Quadratic Programming IK Solution:
+theta1 = -0.338136, theta2 = 1.852276, theta3 = 0.056656
+
+Test Case 3:
+Desired Pose: x = 0.200000, y = -0.100000, phi = -0.785398
+
+ Algebraic IK Solution:
+theta1 = -1.570796, theta2 = 2.696031, theta3 = -1.910633
+Verification (FK): x = 0.200000, y = -0.100000, phi = -0.785398
+
+ Gradient Descent IK Solution:
+theta1 = -1.570796, theta2 = 2.696031, theta3 = -1.910633
+
+ Levenberg-Marquardt IK Solution:
+theta1 = -1.570796, theta2 = 2.696031, theta3 = -1.910633
+Converged after 0 iterations.
+
+ Quadratic Programming IK Solution:
+theta1 = -1.570796, theta2 = 2.696031, theta3 = -1.910633
+
+
+ 
+Forward and Inverse Kinematics Using QuIK Library
+ 
+Forward Kinematics (T0ee):
+ 0.000000 -1.000000  0.000000  0.000000
+ 1.000000  0.000000  0.000000  0.700000
+ 0.000000  0.000000  1.000000  0.000000
+ 0.000000  0.000000  0.000000  1.000000
+
+Solved:
+q_solution = [0.785398 0.785398 0.000000]
+Iterations: 10
+Final error: 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+
+
+[Gradient Descent IK vs Elbow-Up IK with Null-Space Optimization]
+
+[Gradient Descent (Elbow-Down)]
+Thetas: 1.047047, -2.094016, 1.046958
+FK Pose: x = 0.400099, y = 0.000011, phi = -0.000011
+
+[Gradient Descent with Null-Space (Elbow-Up)]
+Thetas: 0.943367, -1.466367, -1.409578
+FK Pose: x = 0.400623, y = -0.000510, phi = -1.932579
+
+[Comparison Done]
+mato@mato-VirtualBox:~/cpp_projects/Sanctuary/build$ 
+
+
+Output of the Tests
+mato@mato-VirtualBox:~/cpp_projects/Sanctuary$ ctest
+Test project /home/mato/cpp_projects/Sanctuary
+      Start  1: ForwardKinematicsTest.ZeroAngles
+ 1/15 Test  #1: ForwardKinematicsTest.ZeroAngles ...............   Passed    0.00 sec
+      Start  2: ForwardKinematicsTest.AllJointsPiOver2
+ 2/15 Test  #2: ForwardKinematicsTest.AllJointsPiOver2 .........   Passed    0.00 sec
+      Start  3: ForwardKinematicsTest.NegativeAngles
+ 3/15 Test  #3: ForwardKinematicsTest.NegativeAngles ...........   Passed    0.01 sec
+      Start  4: ForwardKinematicsTest.MixedAngles
+ 4/15 Test  #4: ForwardKinematicsTest.MixedAngles ..............   Passed    0.01 sec
+      Start  5: ForwardKinematicsTest.CumulativeRotation
+ 5/15 Test  #5: ForwardKinematicsTest.CumulativeRotation .......   Passed    0.01 sec
+      Start  6: InverseKinematicsTest.ValidPoseSimple
+ 6/15 Test  #6: InverseKinematicsTest.ValidPoseSimple ..........   Passed    0.01 sec
+      Start  7: InverseKinematicsTest.ValidPoseStraightArm
+ 7/15 Test  #7: InverseKinematicsTest.ValidPoseStraightArm .....   Passed    0.01 sec
+      Start  8: InverseKinematicsTest.ValidPoseBentUp
+ 8/15 Test  #8: InverseKinematicsTest.ValidPoseBentUp ..........   Passed    0.01 sec
+      Start  9: InverseKinematicsTest.ValidPoseBentDown
+ 9/15 Test  #9: InverseKinematicsTest.ValidPoseBentDown ........   Passed    0.00 sec
+      Start 10: InverseKinematicsTest.RejectsUnreachablePose
+10/15 Test #10: InverseKinematicsTest.RejectsUnreachablePose ...   Passed    0.01 sec
+      Start 11: IKFKIntegrationTest.BasicPose
+11/15 Test #11: IKFKIntegrationTest.BasicPose ..................   Passed    0.00 sec
+      Start 12: IKFKIntegrationTest.StraightReachPose
+12/15 Test #12: IKFKIntegrationTest.StraightReachPose ..........   Passed    0.00 sec
+      Start 13: IKFKIntegrationTest.UpwardPose
+13/15 Test #13: IKFKIntegrationTest.UpwardPose .................   Passed    0.00 sec
+      Start 14: IKFKIntegrationTest.NegativePhiPose
+14/15 Test #14: IKFKIntegrationTest.NegativePhiPose ............   Passed    0.00 sec
+      Start 15: IKFKIntegrationTest.DiagonalPose
+15/15 Test #15: IKFKIntegrationTest.DiagonalPose ...............   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 15
+
+Total Test time (real) =   0.11 sec

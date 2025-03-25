@@ -418,3 +418,58 @@ ctest --output-on-failure
 - ✅ QP implementation uses [OSQP](https://osqp.org/) with Eigen support.
 - 🔧 `.gitignore` excludes `build/`, but **helper libs like OSQP** are included for portability.
 
+---
+
+## Bonus Task: ROS 2 Integration
+
+As a bonus, this project includes a complete **ROS 2 package** demonstrating the use of forward and inverse kinematics through inter-node communication.
+
+### Goal:
+- Accept joint angles `θ₁`, `θ₂`, `θ₃` via launch parameters.
+- Compute forward kinematics and publish the end-effector pose.
+- Subscribe to that pose, run inverse kinematics, and print the recovered joint angles.
+
+---
+
+### Architecture
+
+- **`publisher_node`**  
+  - Takes `L1`, `L2`, `L3`, and joint angles as parameters.
+  - Computes **Forward Kinematics** using `getEndEffectorPose()`.
+  - Publishes end-effector pose (`x, y, φ`) on topic `/ee_pose`.
+
+- **`subscriber_node`**  
+  - Subscribes to `/ee_pose`.
+  - Uses **Inverse Kinematics** to recover joint angles `θ₁`, `θ₂`, `θ₃`.
+  - Prints recovered angles to the terminal.
+
+---
+
+### Launch File
+
+Runs both nodes with parameterized joint values:
+
+
+### Package Structure
+
+bash
+Copy
+Edit
+cpp_pkg/
+├── src/
+│   ├── publisher_node.cpp       # FK computation and publishing
+│   └── subscriber_node.cpp      # IK computation and logging
+├── launch/
+│   └── robot_kinematics_launch.py
+├── CMakeLists.txt
+└── package.xml
+
+### How to Run
+
+colcon build --packages-select cpp_pkg
+source install/setup.bash
+Then launch the nodes:
+
+
+ros2 launch cpp_pkg cpp_pkg_launch.py
+

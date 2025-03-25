@@ -30,16 +30,109 @@ The robot is a 3R planar manipulator defined by:
 
 ### 🔹 Forward Kinematics
 
-The end-effector pose is computed as:
+Forward kinematics determines the end-effector pose $(x, y, \phi)$ based on joint angles and link lengths.
 
+---
+
+### 🔸 1. Denavit–Hartenberg (DH) Parameters
+
+| $i$    | $\alpha_{i-1}$ | $a_{i-1}$ | $d_i$ | $\theta_i$   |
+|--------|----------------|-----------|-------|--------------|
+| 1      | $0$            | $0$       | $0$   | $\theta_1$   |
+| 2      | $0$            | $L_1$     | $0$   | $\theta_2$   |
+| 3      | $0$            | $L_2$     | $0$   | $\theta_3$   |
+| e.e.   | $0$            | $L_3$     | $0$   | $0$          |
+
+---
+
+### 🔸 2. Transformation Matrix Definition
+
+The standard homogeneous transformation between frames is:
+
+$$
+^{i-1}T_i =
+\begin{bmatrix}
+\cos\theta_i & -\sin\theta_i & 0 & a_{i-1} \\
+\sin\theta_i &  \cos\theta_i & 0 & 0 \\
+0            & 0             & 1 & d_i \\
+0            & 0             & 0 & 1
+\end{bmatrix}
+$$
+
+---
+
+### 🔸 3. Compute Each Transformation
+
+- $^0T_1$:
+$$
+\begin{bmatrix}
+\cos\theta_1 & -\sin\theta_1 & 0 & 0 \\
+\sin\theta_1 &  \cos\theta_1 & 0 & 0 \\
+0            & 0             & 1 & 0 \\
+0            & 0             & 0 & 1
+\end{bmatrix}
+$$
+
+- $^1T_2$:
+$$
+\begin{bmatrix}
+\cos\theta_2 & -\sin\theta_2 & 0 & L_1 \\
+\sin\theta_2 &  \cos\theta_2 & 0 & 0 \\
+0            & 0             & 1 & 0 \\
+0            & 0             & 0 & 1
+\end{bmatrix}
+$$
+
+- $^2T_3$:
+$$
+\begin{bmatrix}
+\cos\theta_3 & -\sin\theta_3 & 0 & L_2 \\
+\sin\theta_3 &  \cos\theta_3 & 0 & 0 \\
+0            & 0             & 1 & 0 \\
+0            & 0             & 0 & 1
+\end{bmatrix}
+$$
+
+- $^3T_{e.e.}$:
+$$
+\begin{bmatrix}
+1 & 0 & 0 & L_3 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+
+---
+
+### 🔸 4. Full Forward Kinematics
+
+Total transformation:
+
+$$
+^0T_{e.e.} = ^0T_1 \cdot ^1T_2 \cdot ^2T_3 \cdot ^3T_{e.e.}
+$$
+
+Multiply these to get the final transformation matrix from base to end-effector.
+
+---
+
+### 🔸 5. Final Pose Equations
+
+From the matrix result, extract:
+
+- **End-effector position** $(x, y)$:
 $$
 \begin{aligned}
 x &= L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3) \\
-y &= L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3) \\
-\phi &= \theta_1 + \theta_2 + \theta_3
+y &= L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)
 \end{aligned}
 $$
 
+- **Orientation** $\phi$:
+$$
+\phi = \theta_1 + \theta_2 + \theta_3
+$$
 
 ---
 

@@ -224,7 +224,7 @@ This section outlines the numerical inverse kinematics methods implemented in th
 
 Gradient Descent minimizes the error between the desired and current end-effector pose through iterative updates.
 
-#### 📌 Update Rule
+#### Update Rule
 
 $$
 \theta_{t+1} = \theta_t - \eta \nabla f(\theta_t)
@@ -240,11 +240,11 @@ $$
 \nabla f(\theta) = J(\theta)^T \left( \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \right)
 $$
 
-#### ✅ Pros
+#### Pros
 - Simple and intuitive to implement
 - Low memory and compute cost
 
-#### ⚠️ Cons
+#### Cons
 - Sensitive to learning rate
 - May converge slowly
 - Prone to local minima
@@ -255,7 +255,7 @@ $$
 
 Vanilla GD can be improved with a decaying learning rate:
 
-#### 📌 Adaptive Learning Rate
+#### Adaptive Learning Rate
 
 $$
 \eta_t = \frac{\eta_0}{1 + \alpha t}
@@ -267,7 +267,7 @@ $$
 \theta_{t+1} = \theta_t - \eta_t \nabla f(\theta_t)
 $$
 
-#### ✅ Benefits
+#### Benefits
 - Faster convergence far from the target
 - Better stability near solution
 - Easy to extend from basic GD
@@ -278,7 +278,7 @@ $$
 
 A hybrid of **Gauss-Newton** and **Gradient Descent** with a damping term for stability.
 
-#### 📌 Update Rule
+#### Update Rule
 
 $$
 \Delta \theta = -\left( J^T J + \lambda I \right)^{-1} J^T \left( \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \right)
@@ -289,12 +289,12 @@ Where:
 - $\lambda$ is a damping factor
 - $I$ is the identity matrix
 
-#### ✅ Pros
+#### Pros
 - Faster convergence than GD
 - Robust near singularities
 - Handles mild non-linearity well
 
-#### ⚠️ Cons
+#### Cons
 - Requires matrix inversion
 - Damping factor tuning needed
 
@@ -304,7 +304,7 @@ Where:
 
 Formulates IK as a constrained optimization problem.
 
-#### 📌 Objective
+#### Objective
 
 Minimize:
 
@@ -324,17 +324,17 @@ Where:
 
 ✅ Solved using the [OSQP](https://osqp.org/) solver.
 
-#### ✅ Pros
+#### Pros
 - Supports joint limits and inequality constraints
 - Stable even in redundant systems
 
-#### ⚠️ Cons
+#### Cons
 - Slower per iteration
 - Requires external QP solver
 
 ---
 
-### 📋 Summary
+### Summary
 
 | Method               | Advantages                         | Limitations                       |
 |----------------------|------------------------------------|------------------------------------|
@@ -346,7 +346,7 @@ Where:
 > For redundancy-aware control (3 DOF manipulator, 2 DOF task), QP and null-space optimization allow for additional posture objectives like joint comfort or collision avoidance.
 
 
-## 🌀 Null-Space Optimization
+## Null-Space Optimization
 
 We implemented **null-space control** to:
 - Prefer secondary objectives (like posture comfort)
@@ -367,7 +367,7 @@ This helps select the **elbow-up** solution via a virtual spring pull toward a d
 
 ---
 
-## 🧪 Testing
+## Testing
 
 All components are tested using **GoogleTest**:
 - ✅ Forward Kinematics

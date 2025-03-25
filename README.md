@@ -151,6 +151,12 @@ $$
 This method computes joint angles \( \theta_1, \theta_2, \theta_3 \) for a desired end-effector pose \( (x, y, \phi) \), assuming a 3R planar manipulator.
 
 #### Approach Overview:
+This method computes joint angles $\theta_1$, $\theta_2$, $\theta_3$ for a desired end-effector pose $(x, y, \phi)$, assuming a 3R planar manipulator.
+
+---
+
+#### ✅ Approach Overview
+
 1. **Compute the wrist center**:
 
 $$
@@ -169,7 +175,7 @@ $$
 \cos(\theta_2) = \frac{r^2 - L_1^2 - L_2^2}{2 L_1 L_2}
 $$
 
-- Check feasibility: $ |\cos(\theta_2)| \leq 1 $
+- Check feasibility: $\left|\cos(\theta_2)\right| \leq 1$
 
 - Elbow-down configuration (positive root):
 
@@ -181,13 +187,13 @@ $$
 \theta_2 = \text{atan2}(\sin(\theta_2), \cos(\theta_2))
 $$
 
-4. **Solve for $ theta_1 $**:
+4. **Solve for $\theta_1$**:
 
 $$
 \theta_1 = \text{atan2}(y_w, x_w) - \text{atan2}(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))
 $$
 
-5. **Solve for $ (\theta_3) $**:
+5. **Solve for $\theta_3$**:
 
 $$
 \theta_3 = \phi - (\theta_1 + \theta_2)

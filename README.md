@@ -301,7 +301,7 @@ Where:
 
 ### 🔸 4. Quadratic Programming (QP)
 
-Formulates IK as a constrained optimization problem.
+Formulates inverse kinematics as a constrained optimization problem.
 
 #### Objective
 
@@ -311,26 +311,50 @@ $$
 \frac{1}{2} \Delta \theta^T P \Delta \theta + q^T \Delta \theta
 $$
 
-Subject to:
-
-$$
-\theta_{\text{min}} \leq \theta + \Delta \theta \leq \theta_{\text{max}}
-$$
-
 Where:
-- $P = J^T J + \epsilon I$ is the regularized Hessian
-- $q = -J^T \left( \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \right)$
+- \( \Delta \theta \) is the change in joint angles.
+- \( P = J^T J + \text{regularization terms} \) approximates the Hessian.
+- \( q = -J^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}}) \)
+
+Regularization terms:
+- **Velocity penalty**: encourages smaller updates  
+- **Delta velocity penalty**: smoothens convergence  
+- **Position penalty**: biases toward minimizing task error directly  
+
+These are tuned adaptively during optimization depending on the magnitude of the error.
+
+#### Constraint Formulation
+
+In this implementation:
+- **Only joint θ₁ is constrained** between [−70°, +70°]  
+- The constraint is imposed on the **change in θ₁**, i.e.:
+
+$$
+\theta_1^{\text{min}} - \theta_1 \leq \Delta \theta_1 \leq \theta_1^{\text{max}} - \theta_1
+$$
+
+This is enforced as a linear constraint of the form:
+
+$$
+A \Delta \theta \leq u,\quad A \Delta \theta \geq l
+$$
+
+with:
+
+$$
+A = \begin{bmatrix} 1 & 0 & 0 \end{bmatrix}
+$$
 
 ✅ Solved using the [OSQP](https://osqp.org/) solver.
 
 #### Pros
-- Supports joint limits and inequality constraints
-- Stable even in redundant systems
+- Handles joint constraints
+- Stable even near singularities or redundancy
+- Supports regularization and prioritization
 
 #### Cons
-- Slower per iteration
-- Requires external QP solver
-
+- Requires a QP solver (e.g. OSQP)
+- Slower than pure gradient methods per iteration
 ---
 
 ### Summary

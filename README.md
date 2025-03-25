@@ -348,24 +348,39 @@ Where:
 
 ## Null-Space Optimization
 
-We implemented **null-space control** to:
-- Prefer secondary objectives (like posture comfort)
-- Avoid joint limit saturation
-
-The update is:
-
-```
-Δθ = J⁺ * e + (I - J⁺ * J) * (-λ * (θ - θ_rest))
-```
-
-Where:
-- `J⁺`: damped pseudoinverse of the Jacobian
-- `(I - J⁺ * J)`: null-space projector
-- `θ_rest`: preferred rest posture (e.g., elbow-up)
-
-This helps select the **elbow-up** solution via a virtual spring pull toward a desired configuration.
+To resolve the redundancy of a 3-DoF planar manipulator performing a 2D task (position only), we use **null-space projection** to bias the solution toward a preferred joint configuration (elbow-up).
 
 ---
+
+#### 🔸 Joint Update Rule:
+
+$$
+\Delta \theta = J^+ \mathbf{e} + (I - J^+ J)(-\lambda(\theta - \theta_{\text{rest}}))
+$$
+
+Where:
+- $\theta$ is the current joint vector,
+- $J$ is the Jacobian matrix (2×3 for position),
+- $J^+$ is the damped pseudoinverse of $J$,
+- $\mathbf{e} = \mathbf{x}_{\text{target}} - \mathbf{x}_{\text{current}}$ is the task-space error,
+- $\theta_{\text{rest}}$ is a preferred joint posture (e.g., elbow-up),
+- $\lambda$ is a gain controlling how strongly we pull toward $\theta_{\text{rest}}$.
+
+---
+
+#### 🔸 Virtual Spring Logic:
+
+The term:
+
+$$
+- \lambda (\theta - \theta_{\text{rest}})
+$$
+
+acts as a **virtual spring**, pulling the configuration toward $\theta_{\text{rest}}$ **within the null space** of the task. This encourages elbow-up poses without affecting end-effector accuracy.
+
+---
+
+This technique enables redundancy resolution, posture control, and safer motion in real-time applications.
 
 ## Testing
 

@@ -148,8 +148,6 @@ $$
 
 ### 🔹 Inverse Kinematics (Analytical)
 
-This method computes joint angles \( \theta_1, \theta_2, \theta_3 \) for a desired end-effector pose \( (x, y, \phi) \), assuming a 3R planar manipulator.
-
 #### Approach Overview:
 This method computes joint angles $\theta_1$, $\theta_2$, $\theta_3$ for a desired end-effector pose $(x, y, \phi)$, assuming a 3R planar manipulator.
 

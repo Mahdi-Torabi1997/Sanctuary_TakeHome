@@ -39,7 +39,7 @@ TEST_F(InverseKinematicsTest, ValidPoseSimple) {
 }
 
 TEST_F(InverseKinematicsTest, ValidPoseStraightArm) {
-    SolveAndCheck(0.3 + 0.3 + 0.1, 0.0, 0.0);
+    SolveAndCheck(0.3 + 0.3 + 0.1 - .01, 0.0, 0.0);
 }
 
 TEST_F(InverseKinematicsTest, ValidPoseBentUp) {

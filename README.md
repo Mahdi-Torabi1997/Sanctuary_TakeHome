@@ -64,7 +64,9 @@ $$
 ### 🔸 3. Compute Each Transformation
 
 - $^0T_1$:
+
 $$
+^0T_1 =
 \begin{bmatrix}
 \cos\theta_1 & -\sin\theta_1 & 0 & 0 \\
 \sin\theta_1 &  \cos\theta_1 & 0 & 0 \\
@@ -74,7 +76,9 @@ $$
 $$
 
 - $^1T_2$:
+
 $$
+^1T_2 =
 \begin{bmatrix}
 \cos\theta_2 & -\sin\theta_2 & 0 & L_1 \\
 \sin\theta_2 &  \cos\theta_2 & 0 & 0 \\
@@ -84,7 +88,9 @@ $$
 $$
 
 - $^2T_3$:
+
 $$
+^2T_3 =
 \begin{bmatrix}
 \cos\theta_3 & -\sin\theta_3 & 0 & L_2 \\
 \sin\theta_3 &  \cos\theta_3 & 0 & 0 \\
@@ -94,7 +100,9 @@ $$
 $$
 
 - $^3T_{e.e.}$:
+
 $$
+^3T_{e.e.} =
 \begin{bmatrix}
 1 & 0 & 0 & L_3 \\
 0 & 1 & 0 & 0 \\
@@ -123,10 +131,11 @@ From the matrix result, extract:
 
 - **End-effector position** $(x, y)$:
 $$
-\begin{aligned}
-x &= L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3) \\
-y &= L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)
-\end{aligned}
+x = L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3)
+$$
+
+$$
+y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)
 $$
 
 - **Orientation** $\phi$:

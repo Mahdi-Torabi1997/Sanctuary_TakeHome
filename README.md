@@ -452,9 +452,6 @@ Runs both nodes with parameterized joint values:
 
 ### Package Structure
 
-bash
-Copy
-Edit
 cpp_pkg/
 ├── src/
 │   ├── publisher_node.cpp       # FK computation and publishing

@@ -153,7 +153,7 @@ This method computes joint angles $\theta_1$, $\theta_2$, $\theta_3$ for a desir
 
 ---
 
-#### ✅ Approach Overview
+#### Approach Overview
 
 1. **Compute the wrist center**:
 
@@ -198,7 +198,7 @@ $$
 $$
 
 ---
-#### 💡 Key Notes:
+####  Key Notes:
 - There are **two solutions**: elbow-up and elbow-down. Only **elbow-down** is implemented in the current function.
 - The method uses **geometric intuition** and **trigonometric identities** to derive closed-form joint angles.
 - The robot has **3 degrees of freedom (DOF)**, but the **task only requires 2 DOF** — specifically, the **\( x, y \)** position of the end-effector in the 2D plane.
@@ -212,50 +212,127 @@ $$
   - Minimizing deviation from a rest configuration.
 ---
 
-## ⚙️ Numerical IK Methods
+## Numerical IK Methods
+
+This section outlines the numerical inverse kinematics methods implemented in this project. These methods are useful when analytical solutions are unavailable, unstable, or need to be generalized for more complex robots.
+
+---
 
 ### 🔸 1. Gradient Descent (GD)
 
-- Minimizes position error by iteratively updating `θ` using:
+Gradient Descent minimizes the error between the desired and current end-effector pose through iterative updates.
 
-```
-Δθ = α * Jᵀ * (target_pos - current_pos)
-```
+#### Update Rule:
+$$
+\theta_{t+1} = \theta_t - \eta \nabla f(\theta_t)
+$$
 
-- Fast but sensitive to:
-  - Initial guess
-  - Learning rate
-  - Local minima
+Where:
+- $\theta_t$ is the joint vector at iteration $t$,
+- $\eta$ is the learning rate,
+- $f(\theta) = \frac{1}{2} \| \mathbf{x}(\theta) - \mathbf{x}_{\text{target}} \|^2$ is the cost function (squared position error),
+- $\nabla f(\theta)$ is computed using the Jacobian transpose:
+  $$
+  \nabla f(\theta) = J(\theta)^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})
+  $$
+
+#### Pros:
+- Simple and intuitive to implement
+- Low memory and compute cost
+
+#### Cons:
+- Sensitive to learning rate
+- May converge slowly
+- Prone to local minima
+
+---
+
+### 🔸 2. Adaptive Gradient Descent (Not implemented, but trivial to extend)
+
+You can improve vanilla GD with a decaying learning rate:
+
+#### 📌 Adaptive Learning Rate:
+$$
+\eta_t = \frac{\eta_0}{1 + \alpha t}
+$$
+
+Then update becomes:
+$$
+\theta_{t+1} = \theta_t - \eta_t \nabla f(\theta_t)
+$$
+
+#### Benefits:
+- Faster convergence far from target
+- Better stability near solution
+- Simple to implement on top of existing GD
 
 ---
 
-### 🔸 2. Levenberg-Marquardt (LM)
+### 🔸 3. Levenberg-Marquardt (LM)
 
-- Combines GD and Gauss-Newton for better convergence:
+A hybrid between **Gauss-Newton** and **Gradient Descent** that introduces a damping term.
 
-```
-Δθ = (Jᵀ * J + λ * I)⁻¹ * Jᵀ * error
-```
+#### Update Rule:
+$$
+\Delta \theta = -(\mathbf{J}^T \mathbf{J} + \lambda \mathbf{I})^{-1} \mathbf{J}^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})
+$$
 
-- Handles ill-conditioned Jacobians with damping.
+Where:
+- $\lambda$ is the damping factor,
+- $\mathbf{J}$ is the Jacobian matrix.
+
+#### Pros:
+- Faster convergence than GD
+- More robust near singularities
+- Works well in non-linear least squares
+
+#### Cons:
+- Requires matrix inversion
+- Damping parameter needs tuning
+
+---
+
+### 🔸 4. Quadratic Programming (QP)
+
+Formulates IK as a constrained optimization problem.
+
+#### Form:
+Minimize:
+$$
+\frac{1}{2} \Delta \theta^T \mathbf{P} \Delta \theta + \mathbf{q}^T \Delta \theta
+$$
+
+Subject to:
+$$
+\theta_{\text{min}} \leq \theta + \Delta \theta \leq \theta_{\text{max}}
+$$
+
+Where:
+- $\mathbf{P} = J^T J + \epsilon I$ (regularized Hessian approximation),
+- $\mathbf{q} = -J^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})$
+
+ Solved using the [OSQP](https://osqp.org/) solver.
+
+#### Pros:
+- Handles joint limits and constraints
+- Stable even near boundaries
+
+#### Cons:
+- Slower per iteration
+- Requires external solver (e.g., OSQP)
 
 ---
 
-### 🔸 3. Quadratic Programming (QP)
+### Summary
 
-- Formulated as:
+| Method              | Advantages                        | Limitations                     |
+|---------------------|-----------------------------------|----------------------------------|
+| Gradient Descent    | Simple, fast                      | Can be unstable, slow to converge |
+| Adaptive GD         | Better stability                  | Requires decay tuning            |
+| Levenberg-Marquardt | Robust near singularities         | Requires damping parameter tuning |
+| Quadratic Programming | Supports constraints & bounds   | Needs external solver, slower   |
 
-```
-min (1/2) Δθᵀ * P * Δθ + qᵀ * Δθ
-```
-
-With:
-- `P = Jᵀ * J + regularization`
-- Joint constraints (e.g., θ₁ ∈ [-70°, +70°])
-
-✅ Solved using **OSQP**.
-
----
+These methods serve different purposes depending on the problem structure. For real-time control, LM or QP are generally preferred, while GD is great for intuition and prototyping.
 
 ## 🌀 Null-Space Optimization
 

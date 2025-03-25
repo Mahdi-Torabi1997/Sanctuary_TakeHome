@@ -362,7 +362,9 @@ Where:
 - $\theta$ is the current joint vector  
 - $J$ is the Jacobian matrix (2×3 for position)  
 - $J^+$ is the damped pseudoinverse of $J$  
-- $\mathbf{e} = \mathbf{x}_{\text{target}} - \mathbf{x}_{\text{current}}$ is the task-space error  
+- $$
+\mathbf{e} = \mathbf{x}_{\text{target}} - \mathbf{x}_{\text{current}}
+$$
 - $\theta_{\text{rest}}$ is a preferred joint posture (e.g., elbow-up)  
 - $\lambda$ is a gain controlling how strongly we pull toward $\theta_{\text{rest}}$
 

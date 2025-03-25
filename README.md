@@ -451,7 +451,6 @@ Runs both nodes with parameterized joint values:
 
 
 ### Package Structure
----
 cpp_pkg/
 ├── src/
 │   ├── publisher_node.cpp       # FK computation and publishing
@@ -460,7 +459,6 @@ cpp_pkg/
 │   └── robot_kinematics_launch.py
 ├── CMakeLists.txt
 └── package.xml
----
 ### How to Run
 
 colcon build --packages-select cpp_pkg

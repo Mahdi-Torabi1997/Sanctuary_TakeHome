@@ -1,46 +1,57 @@
 #include <gtest/gtest.h>
 #include "Sanctuary/InverseKinematics.h"
-#include "Sanctuary/RRRManipulator.h"
 #include "Sanctuary/ForwardKinematics.h"
+#include "Sanctuary/RRRManipulator.h"
 #include <cmath>
 
-// Tolerance for floating-point comparisons
-const double EPS = 1e-6;
+constexpr double TOL = 1e-6;
+constexpr double L1 = 0.3;
+constexpr double L2 = 0.3;
+constexpr double L3 = 0.1;
 
-TEST(InverseKinematicsTest, SolvesForValidPose) {
-    // Given robot and target pose
-    RRRManipulator robot(0.3, 0.3, 0.1);
-    double expected_x = 0.3;
-    double expected_y = 0.3;
-    double expected_phi = M_PI / 4;
+class InverseKinematicsTest : public ::testing::Test {
+protected:
+    RRRManipulator robot;
 
-    double theta1, theta2, theta3;
+    InverseKinematicsTest() : robot(L1, L2, L3) {}
 
-    // Solve IK
-    bool success = IK::inverseKinematicsAlgebraic(robot, expected_x, expected_y, expected_phi,
-                                                  theta1, theta2, theta3);
+    void SolveAndCheck(double x, double y, double phi) {
+        double t1, t2, t3;
 
-    EXPECT_TRUE(success);
+        bool success = IK::inverseKinematicsAlgebraic(robot, x, y, phi, t1, t2, t3);
+        EXPECT_TRUE(success) << "IK solution failed for a reachable pose.";
 
-    // Set solved angles
-    robot.setJointAngles(theta1, theta2, theta3);
+        robot.setJointAngles(t1, t2, t3);
 
-    // Compute forward kinematics to check solution
-    double actual_x, actual_y, actual_phi;
-    getEndEffectorPose(robot, actual_x, actual_y, actual_phi);
+        double x_sol, y_sol, phi_sol;
+        getEndEffectorPose(robot, x_sol, y_sol, phi_sol);
 
-    EXPECT_NEAR(actual_x, expected_x, EPS);
-    EXPECT_NEAR(actual_y, expected_y, EPS);
-    EXPECT_NEAR(actual_phi, expected_phi, EPS);
+        EXPECT_NEAR(x_sol, x, TOL);
+        EXPECT_NEAR(y_sol, y, TOL);
+        EXPECT_NEAR(phi_sol, phi, TOL);
+    }
+};
+
+// === Test Cases ===
+
+TEST_F(InverseKinematicsTest, ValidPoseSimple) {
+    SolveAndCheck(0.3, 0.3, M_PI / 4);
 }
 
-TEST(InverseKinematicsTest, RejectsUnreachablePose) {
-    RRRManipulator robot(0.3, 0.3, 0.1);
+TEST_F(InverseKinematicsTest, ValidPoseStraightArm) {
+    SolveAndCheck(0.3 + 0.3 + 0.1, 0.0, 0.0);
+}
 
-    // Target pose that is unreachable (too far)
-    double x = 10.0, y = 10.0, phi = 0.0;
-    double theta1, theta2, theta3;
+TEST_F(InverseKinematicsTest, ValidPoseBentUp) {
+    SolveAndCheck(0.1, 0.5, M_PI / 2);
+}
 
-    bool success = IK::inverseKinematicsAlgebraic(robot, x, y, phi, theta1, theta2, theta3);
+TEST_F(InverseKinematicsTest, ValidPoseBentDown) {
+    SolveAndCheck(0.1, -0.5, -M_PI / 2);
+}
+
+TEST_F(InverseKinematicsTest, RejectsUnreachablePose) {
+    double t1, t2, t3;
+    bool success = IK::inverseKinematicsAlgebraic(robot, 10.0, 10.0, 0.0, t1, t2, t3);
     EXPECT_FALSE(success);
 }

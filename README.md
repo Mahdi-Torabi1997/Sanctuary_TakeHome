@@ -10,11 +10,11 @@ This project is part of the take-home assignment of Sanctuary AI interview for s
 - **Task 1:** Implement a kinematic model for a planar RRR robot.
 - **Task 2:** Implement the **Forward Kinematics (FK)** function.
 - **Task 3:** Implement the **Inverse Kinematics (IK)** using:
-  - ✅ **Analytical solution**
-  - ✅ **Gradient Descent (GD)**
-  - ✅ **Levenberg-Marquardt (LM)**
-  - ✅ **Quadratic Programming (QP)**
-  - ✅ **Null-space optimization** (Extra)
+  -  **Analytical solution**
+  -  **Gradient Descent (GD)**
+  -  **Levenberg-Marquardt (LM)**
+  -  **Quadratic Programming (QP)**
+  -  **Null-space optimization** (Extra)
 
 ---
 
@@ -28,13 +28,13 @@ The robot is a 3R planar manipulator defined by:
 
 ## Mathematical Foundations
 
-### 🔹 Forward Kinematics
+###  Forward Kinematics
 
 Forward kinematics determines the end-effector pose $(x, y, \phi)$ based on joint angles and link lengths.
 
 ---
 
-### 🔸 1. Denavit–Hartenberg (DH) Parameters
+###  1. Denavit–Hartenberg (DH) Parameters
 
 | $i$    | $\alpha_{i-1}$ | $a_{i-1}$ | $d_i$ | $\theta_i$   |
 |--------|----------------|-----------|-------|--------------|
@@ -45,7 +45,7 @@ Forward kinematics determines the end-effector pose $(x, y, \phi)$ based on join
 
 ---
 
-### 🔸 2. Transformation Matrix Definition
+###  2. Transformation Matrix Definition
 
 The standard homogeneous transformation between frames is:
 
@@ -61,7 +61,7 @@ $$
 
 ---
 
-### 🔸 3. Compute Each Transformation
+###  3. Compute Each Transformation
 
 - $^0T_1$:
 
@@ -113,7 +113,7 @@ $$
 
 ---
 
-### 🔸 4. Full Forward Kinematics
+###  4. Full Forward Kinematics
 
 Total transformation:
 
@@ -125,7 +125,7 @@ Multiplied to get the final transformation matrix from base to end-effector.
 
 ---
 
-### 🔸 5. Final Pose Equations
+###  5. Final Pose Equations
 
 From the matrix result, extract:
 
@@ -146,7 +146,7 @@ $$
 
 ---
 
-### 🔹 Inverse Kinematics (Analytical)
+###  Inverse Kinematics (Analytical)
 
 #### Approach Overview:
 This method computes joint angles $\theta_1$, $\theta_2$, $\theta_3$ for a desired end-effector pose $(x, y, \phi)$, assuming a 3R planar manipulator.
@@ -219,7 +219,7 @@ This section outlines the numerical inverse kinematics methods implemented in th
 
 ---
 
-### 🔸 1. Gradient Descent (GD)
+###  1. Gradient Descent (GD)
 
 Gradient Descent minimizes the error between the desired and current end-effector pose through iterative updates.
 
@@ -250,7 +250,7 @@ $$
 
 ---
 
-### 🔸 2. Adaptive Gradient Descent *(not implemented)*
+###  2. Adaptive Gradient Descent *(not implemented)*
 
 Vanilla GD can be improved with a decaying learning rate:
 
@@ -273,7 +273,7 @@ $$
 
 ---
 
-### 🔸 3. Levenberg-Marquardt (LM)
+###  3. Levenberg-Marquardt (LM)
 
 A hybrid of **Gauss-Newton** and **Gradient Descent** with a damping term for stability.
 
@@ -299,7 +299,7 @@ Where:
 
 ---
 
-### 🔸 4. Quadratic Programming (QP)
+###  4. Quadratic Programming (QP)
 
 Formulates inverse kinematics as a constrained optimization problem.
 
@@ -344,7 +344,7 @@ $$
 A = \begin{bmatrix} 1 & 0 & 0 \end{bmatrix}
 $$
 
-✅ Solved using the [OSQP](https://osqp.org/) solver.
+ Solved using the [OSQP](https://osqp.org/) solver.
 
 ---
 
@@ -379,7 +379,7 @@ To resolve the redundancy of a 3-DoF planar manipulator performing a 2D task (po
 
 ---
 
-#### 🔸 Joint Update Rule:
+####  Joint Update Rule:
 
 $$
 \Delta \theta = J^+ \mathbf{e} + (I - J^+ J)(-\lambda(\theta - \theta_{\text{rest}}))
@@ -394,7 +394,7 @@ Where:
 
 ---
 
-#### 🔸 Virtual Spring Logic:
+####  Virtual Spring Logic:
 
 The term:
 
@@ -410,9 +410,9 @@ This technique enables redundancy resolution, posture control, and safer motion 
 ## Testing
 
 All components are tested using **GoogleTest**:
-- ✅ Forward Kinematics
-- ✅ Inverse Kinematics (valid and invalid poses)
-- ✅ Integration tests (IK + FK round-trip)
+- Forward Kinematics
+- Inverse Kinematics (valid and invalid poses)
+- Integration tests (IK + FK round-trip)
 
 To run:
 
@@ -441,9 +441,9 @@ ctest --output-on-failure
 
 ## Notes
 
-- ✅ You can set custom link lengths and joint angles via API.
-- ✅ QP implementation uses [OSQP](https://osqp.org/) with Eigen support.
-- 🔧 `.gitignore` excludes `build/`, but **helper libs like OSQP** are included for portability as some files have been altered after cloning and their cmake has been changed to disable internal testing.
+-  You can set custom link lengths and joint angles via API.
+-  QP implementation uses [OSQP](https://osqp.org/) with Eigen support.
+-  `.gitignore` excludes `build/`, but **helper libs like OSQP** are included for portability as some files have been altered after cloning and their cmake has been changed to disable internal testing.
 
 ---
 

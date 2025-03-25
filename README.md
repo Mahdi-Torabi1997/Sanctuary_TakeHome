@@ -1,11 +1,11 @@
 # 3-DOF Planar Manipulator Kinematics Solver
 
 ### Author: Mahdi Torabi  
-This project is part of a take-home assignment of Sanctuary AI interview for solving both **Forward Kinematics** and **Inverse Kinematics** of a 3-link planar manipulator using different analytical and numerical methods.
+This project is part of the take-home assignment of Sanctuary AI interview for solving both **Forward Kinematics** and **Inverse Kinematics** of a 3-link planar manipulator using different analytical and numerical methods.
 
 ---
 
-## 📝 Task Overview
+## Tasks Overview
 
 - **Task 1:** Implement a kinematic model for a planar RRR robot.
 - **Task 2:** Implement the **Forward Kinematics (FK)** function.
@@ -18,7 +18,7 @@ This project is part of a take-home assignment of Sanctuary AI interview for sol
 
 ---
 
-## 🤖 Robot Description
+## Manipulator Description
 
 The robot is a 3R planar manipulator defined by:
 - Link lengths: `L1 = 0.3`, `L2 = 0.3`, `L3 = 0.1` (default in meters)
@@ -26,7 +26,7 @@ The robot is a 3R planar manipulator defined by:
 
 ---
 
-## 🧠 Mathematical Foundations
+## Mathematical Foundations
 
 ### 🔹 Forward Kinematics
 
@@ -121,7 +121,7 @@ $$
 ^0T_{e.e.} = ^0T_1 \cdot ^1T_2 \cdot ^2T_3 \cdot ^3T_{e.e.}
 $$
 
-Multiply these to get the final transformation matrix from base to end-effector.
+Multiplied to get the final transformation matrix from base to end-effector.
 
 ---
 
@@ -148,14 +148,61 @@ $$
 
 ### 🔹 Inverse Kinematics (Analytical)
 
-Using geometry:
-- Solve for the wrist center
-- Apply Law of Cosines for `θ2`
-- Solve for `θ1` using triangle geometry
-- Compute `θ3 = φ - θ1 - θ2`
+This method computes joint angles \( \theta_1, \theta_2, \theta_3 \) for a desired end-effector pose \( (x, y, \phi) \), assuming a 3R planar manipulator.
 
-✅ **Two solutions exist** (elbow-up, elbow-down). By default, we use the elbow-down configuration.
+#### ✅ Approach Overview:
+1. **Compute the wrist center**:
+   $$
+   x_w = x - L_3 \cos(\phi), \quad y_w = y - L_3 \sin(\phi)
+   $$
 
+2. **Apply the Law of Cosines**:
+   - Compute the squared distance to the wrist center:
+     $$
+     r^2 = x_w^2 + y_w^2
+     $$
+   - Solve for \( \cos(\theta_2) \) using:
+     $$
+     \cos(\theta_2) = \frac{r^2 - L_1^2 - L_2^2}{2 L_1 L_2}
+     $$
+   - Check for reachability: \( |\cos(\theta_2)| \leq 1 \)
+
+   - Solve for \( \sin(\theta_2) \):
+     $$
+     \sin(\theta_2) = \sqrt{1 - \cos^2(\theta_2)}
+     $$
+     > The code uses the **elbow-down** configuration (positive root). An elbow-up version would negate \( \sin(\theta_2) \).
+
+   - Compute:
+     $$
+     \theta_2 = \text{atan2}(\sin(\theta_2), \cos(\theta_2))
+     $$
+
+3. **Solve for \( \theta_1 \)**:
+   - Using triangle geometry:
+     $$
+     \theta_1 = \text{atan2}(y_w, x_w) - \text{atan2}(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))
+     $$
+
+4. **Compute \( \theta_3 \)** from orientation constraint:
+   $$
+   \theta_3 = \phi - (\theta_1 + \theta_2)
+   $$
+
+---
+
+#### 💡 Key Notes:
+- There are **two solutions**: elbow-up and elbow-down. Only **elbow-down** is implemented in the current function.
+- The method uses **geometric intuition** and **trigonometric identities** to derive closed-form joint angles.
+- The robot has **3 degrees of freedom (DOF)**, but the **task only requires 2 DOF** — specifically, the **\( x, y \)** position of the end-effector in the 2D plane.
+
+- This means the system is **kinematically redundant**:  
+  So the solution lies on a **1-dimensional null space**.
+- In practice, this means **more than one joint configuration** can achieve the same end-effector position. 
+- To resolve this, **additional constraints** can be imposed. Examples include:
+  - Minimizing joint velocities or torques,
+  - Biasing toward a desired posture (e.g. "elbow-down"),
+  - Minimizing deviation from a rest configuration.
 ---
 
 ## ⚙️ Numerical IK Methods

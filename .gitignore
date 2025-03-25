@@ -1,1 +1,30 @@
+# Ignore build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
 
+# Ignore compiled object files and binaries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Logs, cache, temporary files
+*.log
+*.tmp
+
+# Mac and Linux system files
+.DS_Store
+Thumbs.db

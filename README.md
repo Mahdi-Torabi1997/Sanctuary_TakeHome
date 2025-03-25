@@ -1,20 +1,20 @@
 # 🦾 3-DOF Planar Manipulator Kinematics Solver
 
 ### Author: Mahdi Torabi  
-This project is part of a take-home assignment for solving both **Forward Kinematics** and **Inverse Kinematics** of a 3-link planar manipulator using different analytical and numerical methods.
+This project is part of a take-home assignment of Sanctuary AI interview for solving both **Forward Kinematics** and **Inverse Kinematics** of a 3-link planar manipulator using different analytical and numerical methods.
 
 ---
 
 ## 📝 Task Overview
 
-- **Task 1:** Implement a kinematic model for a planar 3R (RRR) robot.
+- **Task 1:** Implement a kinematic model for a planar RRR robot.
 - **Task 2:** Implement the **Forward Kinematics (FK)** function.
 - **Task 3:** Implement the **Inverse Kinematics (IK)** using:
-  - ✅ **Analytical (Algebraic) solution**
+  - ✅ **Analytical solution**
   - ✅ **Gradient Descent (GD)**
   - ✅ **Levenberg-Marquardt (LM)**
   - ✅ **Quadratic Programming (QP)**
-  - ✅ **Null-space optimization** (bonus)
+  - ✅ **Null-space optimization** (Extra)
 
 ---
 
@@ -32,11 +32,12 @@ The robot is a 3R planar manipulator defined by:
 
 The end-effector pose is computed as:
 
-```
-x = L1 * cos(θ1) + L2 * cos(θ1 + θ2) + L3 * cos(θ1 + θ2 + θ3)
-y = L1 * sin(θ1) + L2 * sin(θ1 + θ2) + L3 * sin(θ1 + θ2 + θ3)
-φ = θ1 + θ2 + θ3
-```
+\begin{align*}
+x &= L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3) \\
+y &= L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3) \\
+\phi &= \theta_1 + \theta_2 + \theta_3
+\end{align*}
+
 
 ---
 

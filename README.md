@@ -451,14 +451,17 @@ Runs both nodes with parameterized joint values:
 
 
 ### Package Structure
+
+```text
 cpp_pkg/
 ├── src/
 │   ├── publisher_node.cpp       # FK computation and publishing
 │   └── subscriber_node.cpp      # IK computation and logging
 ├── launch/
-│   └── robot_kinematics_launch.py
+│   └── cpp_pkg_launch.py
 ├── CMakeLists.txt
 └── package.xml
+
 ### How to Run
 
 colcon build --packages-select cpp_pkg

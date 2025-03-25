@@ -1,121 +1,190 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath, amssymb}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{geometry}
-\geometry{margin=1in}
+# 🦾 3-DOF Planar Manipulator Kinematics Solver
 
-\title{Sanctuary Take-Home Assignment\\Kinematics and Inverse Kinematics of a 3-DOF Planar Manipulator}
-\author{Mahdi Torabi}
-\date{\today}
+### Author: Mahdi Torabi  
+This project is part of a take-home assignment for solving both **Forward Kinematics** and **Inverse Kinematics** of a 3-link planar manipulator using different analytical and numerical methods.
 
-\begin{document}
+---
 
-\maketitle
+## 📝 Task Overview
 
-\section*{Introduction}
-This project presents the implementation of forward and inverse kinematics for a 3-degree-of-freedom (3-DOF) planar robotic manipulator as part of a take-home assignment. I, \textbf{Mahdi Torabi}, designed and implemented this system in C++ using object-oriented programming and a modular architecture with full unit test coverage.
+- **Task 1:** Implement a kinematic model for a planar 3R (RRR) robot.
+- **Task 2:** Implement the **Forward Kinematics (FK)** function.
+- **Task 3:** Implement the **Inverse Kinematics (IK)** using:
+  - ✅ **Analytical (Algebraic) solution**
+  - ✅ **Gradient Descent (GD)**
+  - ✅ **Levenberg-Marquardt (LM)**
+  - ✅ **Quadratic Programming (QP)**
+  - ✅ **Null-space optimization** (bonus)
 
-The manipulator consists of three links with lengths \( L_1, L_2, L_3 \) and three revolute joints represented by joint angles \( \theta_1, \theta_2, \theta_3 \).
+---
 
-\section*{Task Overview}
-\begin{itemize}
-    \item \textbf{Task 1:} Create an object-oriented model of the robot to store link parameters and joint angles.
-    \item \textbf{Task 2:} Implement forward kinematics (FK) to compute end-effector position and orientation.
-    \item \textbf{Task 3:} Implement inverse kinematics (IK):
-        \begin{itemize}
-            \item Algebraic solution
-            \item Numerical methods: Gradient Descent, Levenberg-Marquardt, and Quadratic Programming
-        \end{itemize}
-    \item \textbf{Bonus:} Null-space optimization for redundancy resolution.
-\end{itemize}
+## 🤖 Robot Description
 
-\section*{Forward Kinematics (FK)}
-The forward kinematics calculates the end-effector pose \((x, y, \phi)\) given the joint angles \( \theta_1, \theta_2, \theta_3 \).
+The robot is a 3R planar manipulator defined by:
+- Link lengths: `L1 = 0.3`, `L2 = 0.3`, `L3 = 0.1` (default in meters)
+- Joint angles: `θ1`, `θ2`, `θ3` (in radians)
 
-\subsection*{Equations:}
-\begin{align*}
-    x &= L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3) \\
-    y &= L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3) \\
-    \phi &= \theta_1 + \theta_2 + \theta_3
-\end{align*}
+---
 
-\section*{Inverse Kinematics (IK)}
-\subsection*{Algebraic Solution:}
-The algebraic method solves the nonlinear system by:
-\begin{enumerate}
-    \item Computing wrist center:
-    \begin{equation*}
-        x_w = x - L_3 \cos(\phi), \quad y_w = y - L_3 \sin(\phi)
-    \end{equation*}
-    \item Solving for \( \theta_2 \):
-    \begin{equation*}
-        \cos(\theta_2) = \frac{x_w^2 + y_w^2 - L_1^2 - L_2^2}{2L_1 L_2}
-    \end{equation*}
-    \item Solving for \( \theta_1 \):
-    \begin{equation*}
-        \theta_1 = \arctan2(y_w, x_w) - \arctan2(L_2 \sin(\theta_2), L_1 + L_2 \cos(\theta_2))
-    \end{equation*}
-    \item Solving for \( \theta_3 \):
-    \begin{equation*}
-        \theta_3 = \phi - (\theta_1 + \theta_2)
-    \end{equation*}
-\end{enumerate}
+## 🧠 Mathematical Foundations
 
-\subsection*{Numerical Methods}
-\subsubsection*{1. Gradient Descent}
-We iteratively update the joint angles using:
-\begin{equation*}
-    \Delta \theta = \alpha J^T (x_{target} - x_{current})
-\end{equation*}
+### 🔹 Forward Kinematics
 
-\subsubsection*{2. Levenberg-Marquardt (Damped Least Squares)}
-Improves over simple gradient descent:
-\begin{equation*}
-    \Delta \theta = (J^T J + \lambda I)^{-1} J^T (x_{target} - x_{current})
-\end{equation*}
+The end-effector pose is computed as:
 
-\subsubsection*{3. Quadratic Programming (QP)}
-Formulated as an optimization problem:
-\begin{align*}
-    \min_{\Delta \theta} \quad & \frac{1}{2} \Delta \theta^T J^T J \Delta \theta + \Delta \theta^T J^T e \\
-    \text{subject to:} \quad & \theta_{min} \leq \theta + \Delta \theta \leq \theta_{max}
-\end{align*}
-We use the OSQP solver to enforce joint limits and penalties on large steps.
+```
+x = L1 * cos(θ1) + L2 * cos(θ1 + θ2) + L3 * cos(θ1 + θ2 + θ3)
+y = L1 * sin(θ1) + L2 * sin(θ1 + θ2) + L3 * sin(θ1 + θ2 + θ3)
+φ = θ1 + θ2 + θ3
+```
 
-\section*{Null-Space Optimization (Elbow-Up)}
-In redundant manipulators, the null space of the Jacobian allows for secondary objectives. We used this idea to bias the solution towards an "elbow-up" configuration:
-\begin{align*}
-    \Delta \theta &= J^{\dagger} e + (I - J^{\dagger} J) \nabla h(\theta) \\
-    h(\theta) &= \frac{1}{2} \|\theta - \theta_{rest}\|^2
-\end{align*}
-This was implemented using a virtual spring pulling towards a rest pose \( \theta_{rest} = [0, \pi/2, 0] \).
+---
 
-\section*{Project Structure}
-\begin{itemize}
-    \item \texttt{src/} - Implementation files
-    \item \texttt{include/} - Headers
-    \item \texttt{tests/} - Google Test unit tests
-    \item \texttt{CMakeLists.txt} - Build configuration
-    \item \texttt{osqp-cpp, osqp-eigen} - Libraries for QP solver
-\end{itemize}
+### 🔹 Inverse Kinematics (Analytical)
 
-\section*{Running the Project}
-\begin{enumerate}
-    \item Clone the repo
-    \item Install dependencies (Eigen, OSQP, GoogleTest)
-    \item Run:
-    \begin{verbatim}
-    mkdir build && cd build
-    cmake ..
-    make
-    ctest --output-on-failure
-    \end{verbatim}
-\end{enumerate}
+Using geometry:
+- Solve for the wrist center
+- Apply Law of Cosines for `θ2`
+- Solve for `θ1` using triangle geometry
+- Compute `θ3 = φ - θ1 - θ2`
 
-\section*{Conclusion}
-This project demonstrates a complete implementation of kinematics for a planar robotic arm using both analytical and numerical approaches. The evolution from algebraic to modern optimization-based methods (like QP with joint limits) shows a progressive improvement in capability, flexibility, and robustness.
+✅ **Two solutions exist** (elbow-up, elbow-down). By default, we use the elbow-down configuration.
 
-\end{document}
+---
 
+## ⚙️ Numerical IK Methods
+
+### 🔸 1. Gradient Descent (GD)
+
+- Minimizes position error by iteratively updating `θ` using:
+
+```
+Δθ = α * Jᵀ * (target_pos - current_pos)
+```
+
+- Fast but sensitive to:
+  - Initial guess
+  - Learning rate
+  - Local minima
+
+---
+
+### 🔸 2. Levenberg-Marquardt (LM)
+
+- Combines GD and Gauss-Newton for better convergence:
+
+```
+Δθ = (Jᵀ * J + λ * I)⁻¹ * Jᵀ * error
+```
+
+- Handles ill-conditioned Jacobians with damping.
+
+---
+
+### 🔸 3. Quadratic Programming (QP)
+
+- Formulated as:
+
+```
+min (1/2) Δθᵀ * P * Δθ + qᵀ * Δθ
+```
+
+With:
+- `P = Jᵀ * J + regularization`
+- Joint constraints (e.g., θ₁ ∈ [-70°, +70°])
+
+✅ Solved using **OSQP**.
+
+---
+
+## 🌀 Null-Space Optimization
+
+We implemented **null-space control** to:
+- Prefer secondary objectives (like posture comfort)
+- Avoid joint limit saturation
+
+The update is:
+
+```
+Δθ = J⁺ * e + (I - J⁺ * J) * (-λ * (θ - θ_rest))
+```
+
+Where:
+- `J⁺`: damped pseudoinverse of the Jacobian
+- `(I - J⁺ * J)`: null-space projector
+- `θ_rest`: preferred rest posture (e.g., elbow-up)
+
+This helps select the **elbow-up** solution via a virtual spring pull toward a desired configuration.
+
+---
+
+## 🧪 Testing
+
+All components are tested using **GoogleTest**:
+- ✅ Forward Kinematics
+- ✅ Inverse Kinematics (valid and invalid poses)
+- ✅ Integration tests (IK + FK round-trip)
+
+To run:
+
+```bash
+cd build
+cmake ..
+make
+ctest --output-on-failure
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
+├── include/
+│   └── Sanctuary/         # All header files
+├── src/                   # All implementation files
+├── tests/                 # GTest-based unit tests
+├── osqp-eigen/            # External solver for QP
+├── osqp-cpp/              # C++ binding for OSQP
+├── CMakeLists.txt         # Build configuration
+└── README.md              # This file
+```
+
+---
+
+## 🔍 Learnings and Evolution
+
+| Method         | Math Basis            | Strength            | Limitation            |
+|----------------|------------------------|----------------------|------------------------|
+| Analytical     | Trig geometry          | Fast, exact          | Ambiguous solutions   |
+| Gradient Descent | Optimization (1st-order) | Simple, intuitive     | Local minima          |
+| Levenberg-Marquardt | Gauss-Newton variant   | Stable, fast convergence | Requires damping tune |
+| QP             | Convex Optimization    | Constraints supported | Slower setup          |
+| Null-space     | Redundancy control     | Custom posture goals  | Extra computation     |
+
+---
+
+## 📌 Notes
+
+- ✅ You can set custom link lengths and joint angles via API.
+- ✅ Code is object-oriented for easy extensibility.
+- ✅ QP implementation uses [OSQP](https://osqp.org/) with Eigen support.
+- 🔧 `.gitignore` excludes `build/`, but **helper libs like OSQP** are included for portability.
+
+---
+
+## 🙋‍♂️ About Me
+
+I'm **Mahdi Torabi**, a mechatronics engineer passionate about robotics, motion control, and simulation.  
+This repo demonstrates my ability to:
+- Analyze robotic systems
+- Implement optimization-based control
+- Write clean, tested C++ code
+
+---
+
+## 🚀 Future Ideas
+
+- Visualize manipulator using matplotlib or 3D engines
+- Animate trajectory IK
+- Extend to 6DOF or SCARA arms
+- Add velocity and torque control modules

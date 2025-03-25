@@ -398,7 +398,7 @@ ctest --output-on-failure
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── include/
@@ -412,7 +412,7 @@ ctest --output-on-failure
 ```
 
 
-## 📌 Notes
+## Notes
 
 - ✅ You can set custom link lengths and joint angles via API.
 - ✅ QP implementation uses [OSQP](https://osqp.org/) with Eigen support.
@@ -451,7 +451,7 @@ Runs both nodes with parameterized joint values:
 
 
 ### Package Structure
-
+---
 cpp_pkg/
 ├── src/
 │   ├── publisher_node.cpp       # FK computation and publishing
@@ -460,7 +460,7 @@ cpp_pkg/
 │   └── robot_kinematics_launch.py
 ├── CMakeLists.txt
 └── package.xml
-
+---
 ### How to Run
 
 colcon build --packages-select cpp_pkg

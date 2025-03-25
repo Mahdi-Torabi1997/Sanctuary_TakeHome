@@ -130,6 +130,8 @@ Multiply these to get the final transformation matrix from base to end-effector.
 From the matrix result, extract:
 
 - **End-effector position** $(x, y)$:
+
+
 $$
 x = L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3)
 $$
@@ -138,7 +140,6 @@ $$
 y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)
 $$
 
-- **Orientation** $\phi$:
 $$
 \phi = \theta_1 + \theta_2 + \theta_3
 $$

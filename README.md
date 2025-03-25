@@ -372,8 +372,7 @@ Where:
 
 The term:
 
-$$
-- \lambda (\theta - \theta_{\text{rest}})
+$$\lambda (\theta - \theta_{\text{rest}})
 $$
 
 acts as a **virtual spring**, pulling the configuration toward $\theta_{\text{rest}}$ **within the null space** of the task. This encourages elbow-up poses without affecting end-effector accuracy.

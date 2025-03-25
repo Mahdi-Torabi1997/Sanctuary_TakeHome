@@ -1,4 +1,4 @@
-# 🦾 3-DOF Planar Manipulator Kinematics Solver
+# 3-DOF Planar Manipulator Kinematics Solver
 
 ### Author: Mahdi Torabi  
 This project is part of a take-home assignment of Sanctuary AI interview for solving both **Forward Kinematics** and **Inverse Kinematics** of a 3-link planar manipulator using different analytical and numerical methods.
@@ -32,11 +32,13 @@ The robot is a 3R planar manipulator defined by:
 
 The end-effector pose is computed as:
 
-\begin{align*}
+$$
+\begin{aligned}
 x &= L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3) \\
 y &= L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3) \\
 \phi &= \theta_1 + \theta_2 + \theta_3
-\end{align*}
+\end{aligned}
+$$
 
 
 ---

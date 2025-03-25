@@ -311,12 +311,6 @@ $$
 \frac{1}{2} \Delta \theta^T P \Delta \theta + q^T \Delta \theta
 $$
 
-Where:
-
-- \( \Delta \theta \) is the change in joint angles  
-- \( P = J^T J + \text{regularization terms} \) approximates the Hessian  
-- \( q = -J^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}}) \)
-
 Regularization terms:
 
 - **Velocity penalty**: encourages smaller updates  

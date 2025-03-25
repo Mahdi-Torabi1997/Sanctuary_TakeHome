@@ -212,7 +212,6 @@ $$
   - Minimizing deviation from a rest configuration.
 ---
 
-## Numerical IK Methods
 
 ## Numerical IK Methods
 

@@ -308,8 +308,8 @@ $$
 $$
 
 Where:
-- $\mathbf{P} = J^T J + \epsilon I$ (regularized Hessian approximation),
-- $\mathbf{q} = -J^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})$
+- $$\mathbf{P} = J^T J + \epsilon I$$ (regularized Hessian approximation),
+- $$\mathbf{q} = -J^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}})$$
 
  Solved using the [OSQP](https://osqp.org/) solver.
 

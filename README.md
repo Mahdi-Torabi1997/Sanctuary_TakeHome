@@ -312,34 +312,39 @@ $$
 $$
 
 Where:
-- \( \Delta \theta \) is the change in joint angles.
-- \( P = J^T J + \text{regularization terms} \) approximates the Hessian.
+
+- \( \Delta \theta \) is the change in joint angles  
+- \( P = J^T J + \text{regularization terms} \) approximates the Hessian  
 - \( q = -J^T (\mathbf{x}(\theta) - \mathbf{x}_{\text{target}}) \)
 
 Regularization terms:
+
 - **Velocity penalty**: encourages smaller updates  
 - **Delta velocity penalty**: smoothens convergence  
 - **Position penalty**: biases toward minimizing task error directly  
 
 These are tuned adaptively during optimization depending on the magnitude of the error.
 
+---
+
 #### Constraint Formulation
 
 In this implementation:
-- **Only joint θ₁ is constrained** between [−70°, +70°]  
-- The constraint is imposed on the **change in θ₁**, i.e.:
+
+- Only joint \( \theta_1 \) is constrained between [−70°, +70°]  
+- The constraint is imposed on the **change in \( \theta_1 \)**, i.e.:
 
 $$
 \theta_1^{\text{min}} - \theta_1 \leq \Delta \theta_1 \leq \theta_1^{\text{max}} - \theta_1
 $$
 
-This is enforced as a linear constraint of the form:
+This is enforced as a linear constraint:
 
 $$
 A \Delta \theta \leq u,\quad A \Delta \theta \geq l
 $$
 
-with:
+Where:
 
 $$
 A = \begin{bmatrix} 1 & 0 & 0 \end{bmatrix}
@@ -347,14 +352,19 @@ $$
 
 ✅ Solved using the [OSQP](https://osqp.org/) solver.
 
+---
+
 #### Pros
-- Handles joint constraints
-- Stable even near singularities or redundancy
+
+- Handles joint constraints  
+- Stable even near singularities or redundancy  
 - Supports regularization and prioritization
 
 #### Cons
-- Requires a QP solver (e.g. OSQP)
-- Slower than pure gradient methods per iteration
+
+- Requires a QP solver (e.g., OSQP)  
+- Slower per iteration than basic GD or LM
+
 ---
 
 ### Summary
